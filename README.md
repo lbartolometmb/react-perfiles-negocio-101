@@ -1,25 +1,25 @@
 # React, Next.js y apps híbridas para perfiles de negocio
 
-[Siguiente página →](demos/README.md)
+[Siguiente página →](labs/M01-ecosistema-react/README.md)
 
-Cada recorrido es **teoría** y una **demostración guiada**.
+Cada módulo es **teoría** y una **demostración guiada**.
 
 ## Cómo funciona el curso
 
 Sigue este README como índice y avanza **página a página** con **← Página anterior · Siguiente página →**.
 
-En cada demostración ves qué se abre, qué cambia en la página y qué decisión permite tomar.
+En cada módulo lees los conceptos y recorres la demostración: qué se abre, qué se ve y qué decisión permite tomar. Las demos se arrancan como indica [demos/README.md](demos/README.md).
 
-## Demos
+## Módulos
 
-| # | Demo | Índice |
-|---|------|--------|
-| 1 | Página tradicional | [demos/tradicional/](demos/tradicional/) |
-| 2 | SPA React | [demos/spa/](demos/spa/) |
-| 3 | Next.js | [demos/next/](demos/next/) |
-
-Cómo arrancarlas: [demos/README.md](demos/README.md).
+| # | Módulo | Índice |
+|---|--------|--------|
+| M01 | Ecosistema React | [labs/M01-ecosistema-react/](labs/M01-ecosistema-react/README.md) |
+| M02 | Next.js | [labs/M02-nextjs/](labs/M02-nextjs/README.md) |
+| M03 | Web, móvil y escritorio | [labs/M03-web-movil-escritorio/](labs/M03-web-movil-escritorio/README.md) |
+| M04 | Componentes y arquitectura | [labs/M04-componentes-arquitectura/](labs/M04-componentes-arquitectura/README.md) |
+| M05 | APIs, calidad y caso | [labs/M05-apis-calidad/](labs/M05-apis-calidad/README.md) |
 
 ## Empieza aquí
 
-→ **[Demos](demos/README.md)**
+→ **[M01 — Ecosistema React](labs/M01-ecosistema-react/README.md)**
