@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "name": "react-perfiles-negocio-101",
+      "path": "/home/david/Cursos/react-perfiles-negocio-101"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true
+    }
+  }
+}

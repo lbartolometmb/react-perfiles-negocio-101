@@ -1,0 +1,29 @@
+---
+description: Contexto del curso React, Next.js y apps híbridas para perfiles de negocio — leer antes de editar
+globs:
+  - "**/*"
+alwaysApply: true
+---
+
+# Curso React, Next.js y apps híbridas para perfiles de negocio
+
+## Workspace correcto
+
+Trabaja en **`react-perfiles-negocio-101`** (`/home/david/Cursos/react-perfiles-negocio-101`), **no** en `/home/david/Cursos/template`.
+
+## Memoria del bootstrap
+
+Lee **`.agent/HILO-INICIAL.md`** (temario, decisiones, backlog) y luego `.agent/diseno/contexto.md`, `.agent/SEED.md`.
+
+## Repo
+
+- Local: `/home/david/Cursos/react-perfiles-negocio-101`
+- GitHub: `my-it-labs/react-perfiles-negocio-101`
+
+## Norma
+
+Tras montar o crear el curso, el agente y el autor deben operar **solo** en este workspace, no en el template.
+
+## Formato de este curso
+
+Teoría y demostración guiada. No hay laboratorios del alumno ni ficheros `Mxx-NN` de práctica. El README público es el índice; no se vuelca ahí el temario de la propuesta.
