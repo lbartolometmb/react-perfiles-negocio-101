@@ -4,11 +4,9 @@
 
 Tres procesos. Cada uno tiene una guía página a página.
 
-| Demo | Arranque | URL | Guía |
-|------|----------|-----|------|
-| Página tradicional | `npm run demo:tradicional` | http://localhost:8080 | [Antes de abrir](tradicional/guia/01-antes-de-abrir.md) |
-| SPA React | `npm run demo:spa` | http://localhost:5173 | [Antes de abrir](spa/guia/01-antes-de-abrir.md) |
-| Next.js | `npm run demo:next` | http://localhost:3000 | [Portada y cliente](next/guia/01-antes-de-abrir.md) · [Flujo con API](next/guia/flujo/01-antes-de-pulsar.md) |
+- Página tradicional. `npm run demo:tradicional` — http://localhost:8080 — [guía](tradicional/guia/01-antes-de-abrir.md)
+- SPA React. `npm run demo:spa` — http://localhost:5173 — [guía](spa/guia/01-antes-de-abrir.md)
+- Next.js. `npm run demo:next` — http://localhost:3000 — [portada y cliente](next/guia/01-antes-de-abrir.md) — [flujo con API](next/guia/flujo/01-antes-de-pulsar.md)
 
 La primera vez, en el contenedor: `npm run install:demos` y `npm --prefix demos/next run build`. El dev container lo hace al crearse. Next.js se sirve ya construido (`next start`).
 

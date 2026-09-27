@@ -6,9 +6,19 @@ Este módulo no arranca ninguna aplicación. React Native, Electron e Ionic se j
 
 ## Páginas
 
-| Submódulo | Páginas |
-|-----------|---------|
-| React Native | [Qué es](01-react-native/que-es.md) · [Qué no es](01-react-native/que-no-es.md) · [Cuándo pedirlo](01-react-native/cuando-pedirlo.md) |
-| Electron | [Qué es](02-electron/que-es.md) · [El puesto fijo](02-electron/puesto-fijo.md) · [Cuándo no](02-electron/cuando-no.md) |
-| Ionic | [Qué es](03-ionic/que-es.md) · [Híbrido no es mejor](03-ionic/hibrido-no-es-mejor.md) · [Cuándo cabe](03-ionic/cuando-cabe.md) |
-| El caso | [Las cuatro piezas](04-caso/las-cuatro-piezas.md) · [La decisión](04-caso/la-decision.md) · [Preguntas](04-caso/preguntas.md) |
+- React Native
+  - [Qué es](01-react-native/que-es.md)
+  - [Qué no es](01-react-native/que-no-es.md)
+  - [Cuándo pedirlo](01-react-native/cuando-pedirlo.md)
+- Electron
+  - [Qué es](02-electron/que-es.md)
+  - [El puesto fijo](02-electron/puesto-fijo.md)
+  - [Cuándo no](02-electron/cuando-no.md)
+- Ionic
+  - [Qué es](03-ionic/que-es.md)
+  - [Híbrido no es mejor](03-ionic/hibrido-no-es-mejor.md)
+  - [Cuándo cabe](03-ionic/cuando-cabe.md)
+- El caso
+  - [Las cuatro piezas](04-caso/las-cuatro-piezas.md)
+  - [La decisión](04-caso/la-decision.md)
+  - [Preguntas](04-caso/preguntas.md)
