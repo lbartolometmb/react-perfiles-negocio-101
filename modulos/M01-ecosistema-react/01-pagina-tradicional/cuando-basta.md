@@ -39,6 +39,26 @@ Preguntas que separan un sitio de documentos de una aplicación disfrazada:
 | ¿Qué pasa con JavaScript desactivado o bloqueado? | «No se ve nada» | No es una página de contenido; es una aplicación |
 | ¿El presupuesto habla de pantallas o de un producto con versión? | De un producto, con despliegues | No se está comprando un puñado de HTML |
 
-## El límite honesto de la demo
+## Qué demo es esta
 
-La demo tradicional enseña el contrato, no un sitio completo. No hay formularios, ni buscador, ni edición. Tiene dos documentos y un contador para hacer visible la recarga. Con eso basta para no confundir «web» con «React». Lo que no hay que concluir es que toda web tradicional sea un HTML estático escrito a mano: muchas se generan con un CMS o con un servidor en cada visita. Siguen siendo documentos. El módulo de Next.js vuelve sobre esa diferencia —documento generado frente a aplicación en el navegador— con más precisión.
+Las preguntas de arriba se responden con una pantalla concreta del curso: la **página tradicional**.
+
+| | |
+|--|--|
+| Arranque | `npm run demo:tradicional` |
+| Dirección | http://localhost:8080 |
+| Carpeta | `demos/tradicional/` |
+| Listado | `public/index.html` — «Línea L1», «en servicio», enlace «Ver detalle de L1»; «Línea L2», «retraso leve», sin enlace |
+| Ficha | `public/detalle.html` — «L1 — Centro / Norte», «Frecuencia habitual: 4 minutos» |
+| Cómo reconocerla | Cabecera azul marino y pastilla «Página tradicional» |
+| Guía | [Antes de abrir](../../../demos/tradicional/guia/01-antes-de-abrir.md), más adelante en el recorrido |
+
+En clase, «página tradicional» significa esa demo: dos documentos. Pulsar «Ver detalle de L1» pide `detalle.html`. El contador de cargas de ese fichero sube. Volver al listado pide otra vez `index.html` y sube el otro contador. El texto de las líneas se lee en el HTML, abriendo el fichero o con «Ver código fuente».
+
+Sirve para el caso «entro, miro el aviso y cierro»: una URL, un documento, el contenido ya dentro. Un parte con formulario, un buscador o una pantalla de edición son otros encargos; esta demo no los trae porque el gesto que hay que ver es el cambio de documento.
+
+## Cuando el HTML no está escrito a mano
+
+En el puerto 8080 los dos ficheros están guardados en la carpeta, para poder abrirlos y ver L1 y L2 dentro. Un aviso o una ficha reales, del mismo tipo, pueden salir de un CMS o componerse en el servidor en cada visita. Siguen siendo documentos: cada uno tiene su URL y el texto viaja en esa respuesta.
+
+Ese segundo caso está en otra demo, la de Next.js: `npm run demo:next`, http://localhost:3000. La portada pinta las mismas líneas y una hora que el servidor escribe en el HTML de esa visita. La cabecera es violeta y la pastilla dice «Next.js — servidor». La guía es [Antes de abrir Next.js](../../../demos/next/guia/01-antes-de-abrir.md), en el módulo siguiente.
