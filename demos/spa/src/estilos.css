@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+  color: #1c2430;
+  background: #f4f6f8;
+}
+
+header, main {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 1.25rem 1.5rem;
+}
+
+header {
+  background: #1f4d3a;
+  color: white;
+  max-width: none;
+}
+
+header p {
+  color: #d7efe4;
+}
+
+.marca {
+  display: inline-block;
+  margin: 0 0 0.35rem;
+  padding: 0.15rem 0.45rem;
+  border-radius: 999px;
+  background: #e7f0c8;
+  color: #3d4a12;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+article {
+  background: white;
+  border: 1px solid #d5dde6;
+  border-radius: 0.6rem;
+  padding: 0.9rem 1rem;
+  margin: 0.75rem 0;
+}
+
+button {
+  font: inherit;
+  color: #0b5cab;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: underline;
+}

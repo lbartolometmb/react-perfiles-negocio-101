@@ -1,0 +1,28 @@
+{
+  "name": "React perfiles de negocio — demos",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+  "forwardPorts": [8080, 5173, 3000],
+  "portsAttributes": {
+    "8080": {
+      "label": "Página tradicional",
+      "onAutoForward": "notify"
+    },
+    "5173": {
+      "label": "SPA React",
+      "onAutoForward": "notify"
+    },
+    "3000": {
+      "label": "Next.js",
+      "onAutoForward": "notify"
+    }
+  },
+  "postCreateCommand": "npm run install:demos && npm --prefix demos/next run build",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  }
+}

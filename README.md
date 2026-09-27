@@ -1,23 +1,25 @@
 # React, Next.js y apps híbridas para perfiles de negocio
 
-[Siguiente página →](labs/M01-tema-del-modulo/README.md)
+[Siguiente página →](demos/README.md)
 
-Cada módulo es **teoría** y una **demostración guiada**.
+Cada recorrido es **teoría** y una **demostración guiada**.
 
 ## Cómo funciona el curso
 
 Sigue este README como índice y avanza **página a página** con **← Página anterior · Siguiente página →**.
 
-En cada módulo lees los conceptos y recorres la demostración: qué se abre, qué se ve y qué decisión permite tomar.
+En cada demostración ves qué se abre, qué cambia en la página y qué decisión permite tomar.
 
-## Módulos
+## Demos
 
-| # | Módulo | Índice |
-|---|--------|--------|
-| M01 | *(título en labs/M01-…/README.md)* | [labs/M01-tema-del-modulo/](labs/M01-tema-del-modulo/README.md) |
+| # | Demo | Índice |
+|---|------|--------|
+| 1 | Página tradicional | [demos/tradicional/](demos/tradicional/) |
+| 2 | SPA React | [demos/spa/](demos/spa/) |
+| 3 | Next.js | [demos/next/](demos/next/) |
 
-*(Ampliar tabla al publicar módulos. Carpetas: `M01-slug-descriptivo`, `M02-…`.)*
+Cómo arrancarlas: [demos/README.md](demos/README.md).
 
 ## Empieza aquí
 
-→ **[M01](labs/M01-tema-del-modulo/README.md)**
+→ **[Demos](demos/README.md)**

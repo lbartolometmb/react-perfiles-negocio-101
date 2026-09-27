@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Red de transporte — página tradicional</title>
+    <link rel="stylesheet" href="/estilos.css" />
+  </head>
+  <body>
+    <header>
+      <p class="marca">Página tradicional</p>
+      <h1>Red de transporte</h1>
+      <p>Cada enlace pide un documento nuevo al servidor.</p>
+    </header>
+    <main>
+      <p>Cargas de este documento en la pestaña: <strong id="cargas">…</strong></p>
+      <article>
+        <h2>Línea L1</h2>
+        <p>Estado: en servicio</p>
+        <a href="/detalle.html">Ver detalle de L1</a>
+      </article>
+      <article>
+        <h2>Línea L2</h2>
+        <p>Estado: retraso leve</p>
+      </article>
+    </main>
+    <script>
+      const cargas = Number(sessionStorage.getItem("cargas-tradicional") || 0) + 1;
+      sessionStorage.setItem("cargas-tradicional", String(cargas));
+      document.getElementById("cargas").textContent = String(cargas);
+    </script>
+  </body>
+</html>

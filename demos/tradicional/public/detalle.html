@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Detalle L1 — página tradicional</title>
+    <link rel="stylesheet" href="/estilos.css" />
+  </head>
+  <body>
+    <header>
+      <p class="marca">Página tradicional</p>
+      <h1>Detalle de L1</h1>
+      <p>Esta pantalla es otro fichero HTML. El navegador ha recargado.</p>
+    </header>
+    <main>
+      <p>Cargas de este documento en la pestaña: <strong id="cargas">…</strong></p>
+      <article>
+        <h2>L1 — Centro / Norte</h2>
+        <p>Frecuencia habitual: 4 minutos. Ahora mismo: en servicio.</p>
+      </article>
+      <p><a href="/">Volver al listado</a></p>
+    </main>
+    <script>
+      const cargas = Number(sessionStorage.getItem("cargas-detalle") || 0) + 1;
+      sessionStorage.setItem("cargas-detalle", String(cargas));
+      document.getElementById("cargas").textContent = String(cargas);
+    </script>
+  </body>
+</html>

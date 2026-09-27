@@ -1,0 +1,10 @@
+{
+  "name": "react-perfiles-negocio-101",
+  "private": true,
+  "scripts": {
+    "install:demos": "npm install --prefix demos/spa && npm install --prefix demos/next",
+    "demo:tradicional": "node demos/tradicional/server.js",
+    "demo:spa": "npm --prefix demos/spa run dev",
+    "demo:next": "npm --prefix demos/next run start"
+  }
+}
