@@ -1,6 +1,6 @@
 # Antes de abrir Next.js
 
-[← Página anterior](../../../modulos/M02-nextjs/03-next-frente-a-react/como-leerlo.md) · [Siguiente página →](02-la-portada.md)
+[← Página anterior](../../../modulos/M02-nextjs/03-next-frente-a-react/03-como-leerlo.md) · [Siguiente página →](02-la-portada.md)
 
 ## Arranque
 

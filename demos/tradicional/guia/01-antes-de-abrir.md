@@ -1,6 +1,6 @@
 # Antes de abrir la página tradicional
 
-[← Página anterior](../../../modulos/M01-ecosistema-react/04-alternativas-y-entorno/como-leerlo-en-una-propuesta.md) · [Siguiente página →](02-el-listado.md)
+[← Página anterior](../../../modulos/M01-ecosistema-react/04-alternativas-y-entorno/03-como-leerlo-en-una-propuesta.md) · [Siguiente página →](02-el-listado.md)
 
 ## Para qué es esta guía
 

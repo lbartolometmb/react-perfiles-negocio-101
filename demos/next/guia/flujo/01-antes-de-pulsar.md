@@ -1,6 +1,6 @@
 # Antes de pulsar
 
-[← Página anterior](../../../../modulos/M05-apis-calidad/04-caso/lo-que-no-cubre.md) · [Siguiente página →](02-con-datos.md)
+[← Página anterior](../../../../modulos/M05-apis-calidad/04-caso/03-lo-que-no-cubre.md) · [Siguiente página →](02-con-datos.md)
 
 ## Dónde está
 
