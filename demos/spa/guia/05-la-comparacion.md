@@ -22,7 +22,7 @@ Conviene tener las dos pestañas abiertas, 8080 y 5173, y hacer el mismo gesto: 
 
 - No se concluye que la SPA sea más moderna. Se concluye que guarda la sesión de pantalla y pierde la dirección.
 - No se concluye que la tradicional no pueda llevar datos vivos. Esta no los lleva. Un servidor puede generar el HTML con datos del momento. La demo no incluye ese servidor para que el fichero se pueda leer entero.
-- No se concluye que React sea la causa de la SPA. React es la herramienta con la que esta SPA está hecha. El contrato (un documento vivo) se podría haber hecho con otra biblioteca. El módulo siguiente enseña React usado al revés: para producir HTML en el servidor, que es lo que la tradicional hace a mano.
+- No se concluye que React sea la causa de la SPA. React es la herramienta con la que esta SPA está hecha. El contrato (un documento vivo) se puede cumplir sin biblioteca, como enseña la [SPA sin React](../../spa-vanilla/guia/01-antes-de-abrir.md) del puerto 8081, que además conserva direcciones e historial. El módulo siguiente enseña React usado al revés: para producir HTML en el servidor, que es lo que la tradicional hace a mano.
 
 ## Cierre del primer bloque
 

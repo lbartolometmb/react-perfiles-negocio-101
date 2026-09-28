@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+  color: #1c2430;
+  background: #f4f6f8;
+}
+
+header, main {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 1.25rem 1.5rem;
+}
+
+header {
+  background: #5a2a5e;
+  color: white;
+  max-width: none;
+}
+
+header p {
+  color: #f0dcf2;
+}
+
+.marca {
+  display: inline-block;
+  margin: 0 0 0.35rem;
+  padding: 0.15rem 0.45rem;
+  border-radius: 999px;
+  background: #f7e3b5;
+  color: #5a3d00;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.contadores {
+  line-height: 1.6;
+}
+
+article {
+  background: white;
+  border: 1px solid #d5dde6;
+  border-radius: 0.6rem;
+  padding: 0.9rem 1rem;
+  margin: 0.75rem 0;
+}
+
+a {
+  color: #0b5cab;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+input[type="search"] {
+  font: inherit;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.4rem 0.6rem;
+  border: 1px solid #b8c4d0;
+  border-radius: 0.4rem;
+}

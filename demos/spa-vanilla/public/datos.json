@@ -1,0 +1,20 @@
+{
+  "lineas": [
+    {
+      "id": "L1",
+      "nombre": "Línea L1",
+      "tramo": "Centro / Norte",
+      "estado": "en servicio",
+      "frecuencia": "4 minutos",
+      "paradas": ["Plaza Mayor", "Hospital", "Estación Norte"]
+    },
+    {
+      "id": "L2",
+      "nombre": "Línea L2",
+      "tramo": "Este / Sur",
+      "estado": "retraso leve",
+      "frecuencia": "6 minutos",
+      "paradas": ["Mercado", "Universidad", "Puerto"]
+    }
+  ]
+}

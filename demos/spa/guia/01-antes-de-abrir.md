@@ -1,6 +1,6 @@
 # Antes de abrir la SPA
 
-[← Página anterior](../../tradicional/guia/07-jsonp.md) · [Siguiente página →](02-el-listado.md)
+[← Página anterior](../../spa-vanilla/guia/04-lectura-del-codigo.md) · [Siguiente página →](02-el-listado.md)
 
 ## Arranque
 

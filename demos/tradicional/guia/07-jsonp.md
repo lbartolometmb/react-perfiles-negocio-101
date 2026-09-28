@@ -1,6 +1,6 @@
 # JSONP
 
-[← Página anterior](06-ajax-json.md) · [Siguiente página →](../../spa/guia/01-antes-de-abrir.md)
+[← Página anterior](06-ajax-json.md) · [Siguiente página →](../../spa-vanilla/guia/01-antes-de-abrir.md)
 
 ## Bloque 6: sin XMLHttpRequest ni fetch
 
@@ -39,4 +39,4 @@ En una propuesta, «integración por JSONP» describe un sistema viejo o un prov
 
 Tres documentos: el listado, la ficha y los ejemplos AJAX. En los dos primeros el JavaScript enseña y esconde lo que ya traía el HTML. En el tercero pide más al servidor —HTML hecho, JSON o JSONP— y lo coloca en un hueco sin sustituir el documento. En ningún caso la dirección de la página ha cambiado sin un enlace.
 
-La guía siguiente abre la SPA, donde la interfaz entera la construye el navegador.
+La guía siguiente abre una SPA hecha solo con HTML, CSS y JavaScript, donde la interfaz entera la construye el navegador.

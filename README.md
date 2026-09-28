@@ -28,7 +28,8 @@ Las demos se arrancan desde [Demos](demos/README.md).
   - [Cómo leerlo en una propuesta](modulos/M01-ecosistema-react/04-alternativas-y-entorno/como-leerlo-en-una-propuesta.md)
 - Guías
   - [Página tradicional](demos/tradicional/guia/01-antes-de-abrir.md)
-  - [SPA](demos/spa/guia/01-antes-de-abrir.md)
+  - [SPA sin React](demos/spa-vanilla/guia/01-antes-de-abrir.md)
+  - [SPA React](demos/spa/guia/01-antes-de-abrir.md)
 
 ## M02 — Next.js
 

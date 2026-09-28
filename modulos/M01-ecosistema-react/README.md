@@ -24,4 +24,5 @@ Este módulo separa cuatro cosas que en una propuesta suelen ir en el mismo pár
   - [Cómo leerlo en una propuesta](04-alternativas-y-entorno/como-leerlo-en-una-propuesta.md)
 - Guías de demo
   - [Página tradicional](../../demos/tradicional/guia/01-antes-de-abrir.md)
-  - [SPA](../../demos/spa/guia/01-antes-de-abrir.md)
+  - [SPA sin React](../../demos/spa-vanilla/guia/01-antes-de-abrir.md)
+  - [SPA React](../../demos/spa/guia/01-antes-de-abrir.md)
