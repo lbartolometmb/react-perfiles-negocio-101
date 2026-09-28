@@ -13,7 +13,16 @@ En la nueva página:
 - Frase: «Esta pantalla es otro fichero HTML. El navegador ha recargado.»
 - Otro contador, de **este** documento. La primera vez que se entra en el detalle durante la vida de la pestaña marca 1, aunque el listado ya fuera por 2 o por 3. La clave es otra: `cargas-detalle`.
 - El texto de negocio: «L1 — Centro / Norte» y «Frecuencia habitual: 4 minutos. Ahora mismo: en servicio.»
+- Tres pestañas: «Horario», «Paradas» y «Accesibilidad». Empieza abierta «Horario»: «Primer servicio 6:00. Último servicio 23:30.»
 - El enlace «Volver al listado», que apunta a `/`.
+
+## Las pestañas
+
+Al pulsar «Paradas» aparece «Plaza Mayor · Hospital · Estación Norte.» Al pulsar «Accesibilidad», «Andén norte con acceso alternativo por la calle lateral.» La pestaña activa se pinta en azul marino.
+
+Los tres textos están en `detalle.html` desde el principio. El script solo decide cuál se ve: quita `hidden` al panel elegido, se lo pone a los otros dos y marca `aria-selected` en la pestaña. No hay petición. El contador de este documento no sube y la dirección sigue siendo `/detalle.html`.
+
+Cambiar de pestaña no es cambiar de pantalla en el sentido de este módulo. Es enseñar otra parte del mismo documento. Por eso tampoco deja rastro en el historial: Atrás no vuelve a la pestaña anterior, vuelve al listado.
 
 ## Ida y vuelta
 
@@ -25,4 +34,4 @@ Si se copia `http://localhost:8080/detalle.html` y se abre en otra pestaña, se 
 
 ## Qué no demuestra el detalle
 
-No demuestra un horarios reales ni una base de datos. El texto «4 minutos» está escrito en `detalle.html`. Si el servicio cambiara, este fichero no se enteraría. La demo enseña la navegación, no la integración. Confundir las dos cosas llevaría a decir que «la web tradicional no puede mostrar datos vivos». Puede, si el servidor genera el HTML en cada visita con datos frescos. Esta demo, para que el mecanismo se vea sin un backend, usa ficheros fijos. El módulo de Next.js enseña el otro extremo: HTML generado en la visita, con una hora que sí cambia.
+No demuestra horarios reales ni una base de datos. El texto «4 minutos» está escrito en `detalle.html`. Si el servicio cambiara, este fichero no se enteraría. La demo enseña la navegación, no la integración. Confundir las dos cosas llevaría a decir que «la web tradicional no puede mostrar datos vivos». Puede, si el servidor genera el HTML en cada visita con datos frescos. Esta demo, para que el mecanismo se vea sin un backend, usa ficheros fijos. El módulo de Next.js enseña el otro extremo: HTML generado en la visita, con una hora que sí cambia.

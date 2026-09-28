@@ -38,7 +38,7 @@ Tres pruebas, sin abrir el código:
 2. «Ver código fuente» muestra el contenido de negocio ya escrito: los nombres de las líneas, no un `div` vacío.
 3. Si se desactiva JavaScript, el listado y el enlace siguen ahí. Puede perderse un contador o un adorno. No se pierde la información.
 
-Esas tres pruebas se cumplen en la demo de este curso llamada **página tradicional**. Se arranca con `npm run demo:tradicional` y se abre en `http://localhost:8080`. Los ficheros están en `demos/tradicional/public/`: `index.html` es el listado (L1 y L2) y `detalle.html` es la ficha de L1. La cabecera dice «Página tradicional» y el fondo es azul marino. El script de cada fichero solo incrementa el contador «Cargas de este documento en la pestaña»; las líneas ya van escritas en el HTML. La guía que las recorre pantalla a pantalla está en [Antes de abrir](../../../demos/tradicional/guia/01-antes-de-abrir.md).
+Esas tres pruebas se cumplen en la demo de este curso llamada **página tradicional**. Se arranca con `npm run demo:tradicional` y se abre en `http://localhost:8080`. Los ficheros están en `demos/tradicional/public/`: `index.html` es el listado (L1 y L2), `detalle.html` es la ficha de L1 y `ajax.html` es una tercera página cuyos botones piden HTML, JSON o JSONP sin cambiar de documento. La cabecera dice «Página tradicional» y el fondo es azul marino. En el listado y en la ficha, el JavaScript cuenta cargas y maneja el buscador, los desplegables de paradas y las pestañas; las líneas ya van escritas en el HTML. La guía que las recorre pantalla a pantalla está en [Antes de abrir](../../../demos/tradicional/guia/01-antes-de-abrir.md).
 
 ## Qué implica para quien encarga el trabajo
 

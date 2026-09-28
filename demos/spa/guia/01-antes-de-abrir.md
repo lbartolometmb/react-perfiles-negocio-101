@@ -1,6 +1,6 @@
 # Antes de abrir la SPA
 
-[← Página anterior](../../tradicional/guia/04-la-decision.md) · [Siguiente página →](02-el-listado.md)
+[← Página anterior](../../tradicional/guia/07-jsonp.md) · [Siguiente página →](02-el-listado.md)
 
 ## Arranque
 

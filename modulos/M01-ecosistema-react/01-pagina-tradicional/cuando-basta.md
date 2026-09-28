@@ -48,12 +48,13 @@ Las preguntas de arriba se responden con una pantalla concreta del curso: la **p
 | Arranque | `npm run demo:tradicional` |
 | Dirección | http://localhost:8080 |
 | Carpeta | `demos/tradicional/` |
-| Listado | `public/index.html` — «Línea L1», «en servicio», enlace «Ver detalle de L1»; «Línea L2», «retraso leve», sin enlace |
-| Ficha | `public/detalle.html` — «L1 — Centro / Norte», «Frecuencia habitual: 4 minutos» |
+| Listado | `public/index.html` — «Línea L1» con «Ver detalle de L1», «Línea L2» sin detalle, buscador, filtro de estado y «Ver paradas» |
+| Ficha | `public/detalle.html` — «L1 — Centro / Norte», «Frecuencia habitual: 4 minutos», pestañas Horario, Paradas y Accesibilidad |
+| AJAX | `public/ajax.html` — HTML construido en el servidor, JSON con función de renderizado y JSONP, sin salir de `/ajax.html` |
 | Cómo reconocerla | Cabecera azul marino y pastilla «Página tradicional» |
 | Guía | [Antes de abrir](../../../demos/tradicional/guia/01-antes-de-abrir.md), más adelante en el recorrido |
 
-En clase, «página tradicional» significa esa demo: dos documentos. Pulsar «Ver detalle de L1» pide `detalle.html`. El contador de cargas de ese fichero sube. Volver al listado pide otra vez `index.html` y sube el otro contador. El texto de las líneas se lee en el HTML, abriendo el fichero o con «Ver código fuente».
+En clase, «página tradicional» significa esa demo. Pulsar «Ver detalle de L1» pide `detalle.html`. El contador de cargas de ese fichero sube. Volver al listado pide otra vez `index.html` y sube el otro contador. El texto de las líneas se lee en el HTML, abriendo el fichero o con «Ver código fuente». Filtrar, desplegar paradas o cambiar de pestaña no mueve ningún contador: es JavaScript dentro del mismo documento. El enlace «Ejemplos AJAX» abre un tercer documento: ahí los botones piden más al servidor y el contador de esa página tampoco se mueve.
 
 Sirve para el caso «entro, miro el aviso y cierro»: una URL, un documento, el contenido ya dentro. Un parte con formulario, un buscador o una pantalla de edición son otros encargos; esta demo no los trae porque el gesto que hay que ver es el cambio de documento.
 

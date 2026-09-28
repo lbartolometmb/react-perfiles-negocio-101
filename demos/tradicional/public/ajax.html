@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>AJAX — página tradicional</title>
+    <link rel="stylesheet" href="/estilos.css" />
+  </head>
+  <body>
+    <header>
+      <p class="marca">Página tradicional</p>
+      <h1>Ejemplos AJAX</h1>
+      <p>El documento sigue siendo este. Cada bloque pide algo al servidor y rellena su hueco.</p>
+    </header>
+    <main>
+      <p>Cargas de este documento en la pestaña: <strong id="cargas">…</strong></p>
+
+      <section>
+        <h2>1. HTML construido en el servidor, con XMLHttpRequest</h2>
+        <p>La forma clásica. El servidor compone el HTML y la página lo coloca en el hueco con <code>innerHTML</code>.</p>
+        <p>
+          <button type="button" data-xhr-html="ok">Con datos</button>
+          <button type="button" data-xhr-html="vacio">Vacío</button>
+          <button type="button" data-xhr-html="error">Error</button>
+          <button type="button" data-xhr-html="lento">Lento</button>
+        </p>
+        <div id="hueco-xhr-html" class="hueco">
+          <p>Elige un caso.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>2. Formulario que trae HTML</h2>
+        <p>El formulario funciona sin JavaScript: envía y recibe el fragmento como página. Con JavaScript, la petición se hace por detrás y solo cambia el hueco.</p>
+        <form id="filtro" action="/fragmentos/incidencias" method="get">
+          <label for="linea">Línea</label>
+          <select id="linea" name="linea">
+            <option value="">Todas</option>
+            <option value="L1">L1</option>
+            <option value="L2">L2</option>
+          </select>
+          <button type="submit">Filtrar</button>
+        </form>
+        <div id="hueco-filtro" class="hueco">
+          <p>Elige una línea y pulsa «Filtrar».</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>3. Fragmento guardado como fichero</h2>
+        <p>Un trozo de HTML escrito a mano en el servidor, pedido con <code>XMLHttpRequest</code>.</p>
+        <p>
+          <button type="button" id="xhr-aviso">Aviso L2</button>
+        </p>
+        <div id="hueco-aviso" class="hueco">
+          <p>Todavía no se ha cargado el aviso.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>4. El mismo HTML con fetch</h2>
+        <p>La misma respuesta del bloque 1, pedida con <code>fetch</code> en lugar de <code>XMLHttpRequest</code>.</p>
+        <p>
+          <button type="button" data-fetch-html="ok">Con datos</button>
+          <button type="button" data-fetch-html="vacio">Vacío</button>
+          <button type="button" data-fetch-html="error">Error</button>
+          <button type="button" data-fetch-html="lento">Lento</button>
+        </p>
+        <div id="hueco-fetch-html" class="hueco">
+          <p>Elige un caso.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>5. JSON y una función de renderizado</h2>
+        <p>Llegan datos, no HTML. La función <code>renderizarIncidencias</code> construye el HTML en el navegador.</p>
+        <p>
+          <button type="button" data-xhr-json="ok">XHR · Con datos</button>
+          <button type="button" data-xhr-json="vacio">XHR · Vacío</button>
+          <button type="button" data-xhr-json="error">XHR · Error</button>
+        </p>
+        <p>
+          <button type="button" data-fetch-json="ok">fetch · Con datos</button>
+          <button type="button" data-fetch-json="vacio">fetch · Vacío</button>
+          <button type="button" data-fetch-json="error">fetch · Error</button>
+          <button type="button" data-fetch-json="lento">fetch · Lento</button>
+        </p>
+        <div id="hueco-json" class="hueco">
+          <p>Elige un caso.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>6. JSONP</h2>
+        <p>Sin <code>XMLHttpRequest</code> ni <code>fetch</code>. Se añade una etiqueta <code>&lt;script&gt;</code> y el servidor responde con código que llama a una función de esta página.</p>
+        <p>
+          <button type="button" data-jsonp="">Todas</button>
+          <button type="button" data-jsonp="L1">Solo L1</button>
+          <button type="button" data-jsonp="L2">Solo L2</button>
+        </p>
+        <div id="hueco-jsonp" class="hueco">
+          <p>Todavía no se ha pedido nada.</p>
+        </div>
+      </section>
+
+      <p><a href="/">Volver al listado</a></p>
+    </main>
+    <script>
+      var cargas = Number(sessionStorage.getItem("cargas-ajax") || 0) + 1;
+      sessionStorage.setItem("cargas-ajax", String(cargas));
+      document.getElementById("cargas").textContent = String(cargas);
+
+      function hueco(id) {
+        return document.getElementById(id);
+      }
+
+      function pedirHtmlXhr(url, destino) {
+        destino.innerHTML = "<p>Cargando…</p>";
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", url);
+        xhr.onload = function () {
+          if (xhr.status === 200) {
+            destino.innerHTML = xhr.responseText;
+          } else {
+            destino.innerHTML = "<p>Respuesta " + xhr.status + ":</p>" + xhr.responseText;
+          }
+        };
+        xhr.onerror = function () {
+          destino.innerHTML = "<p>No se ha podido contactar con el servidor.</p>";
+        };
+        xhr.send();
+      }
+
+      document.querySelectorAll("[data-xhr-html]").forEach(function (boton) {
+        boton.addEventListener("click", function () {
+          pedirHtmlXhr("/fragmentos/incidencias?modo=" + boton.getAttribute("data-xhr-html"), hueco("hueco-xhr-html"));
+        });
+      });
+
+      document.getElementById("filtro").addEventListener("submit", function (evento) {
+        evento.preventDefault();
+        var linea = document.getElementById("linea").value;
+        pedirHtmlXhr("/fragmentos/incidencias?linea=" + encodeURIComponent(linea), hueco("hueco-filtro"));
+      });
+
+      document.getElementById("xhr-aviso").addEventListener("click", function () {
+        pedirHtmlXhr("/fragmentos/aviso-l2.html", hueco("hueco-aviso"));
+      });
+
+      async function pedirHtmlFetch(modo) {
+        var destino = hueco("hueco-fetch-html");
+        destino.innerHTML = "<p>Cargando…</p>";
+        try {
+          var respuesta = await fetch("/fragmentos/incidencias?modo=" + modo);
+          var html = await respuesta.text();
+          destino.innerHTML = respuesta.ok ? html : "<p>Respuesta " + respuesta.status + ":</p>" + html;
+        } catch (error) {
+          destino.innerHTML = "<p>No se ha podido contactar con el servidor.</p>";
+        }
+      }
+
+      document.querySelectorAll("[data-fetch-html]").forEach(function (boton) {
+        boton.addEventListener("click", function () {
+          pedirHtmlFetch(boton.getAttribute("data-fetch-html"));
+        });
+      });
+
+      function escapar(texto) {
+        return String(texto)
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;");
+      }
+
+      function renderizarIncidencias(datos) {
+        if (datos.incidencias.length === 0) {
+          return "<p>No hay incidencias abiertas.</p>";
+        }
+        return datos.incidencias
+          .map(function (item) {
+            return (
+              "<article><h2>" +
+              escapar(item.id) +
+              " — " +
+              escapar(item.linea) +
+              "</h2><p>" +
+              escapar(item.texto) +
+              "</p></article>"
+            );
+          })
+          .join("");
+      }
+
+      function pedirJsonXhr(modo) {
+        var destino = hueco("hueco-json");
+        destino.innerHTML = "<p>Cargando incidencias…</p>";
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", "/api/incidencias?modo=" + modo);
+        xhr.onload = function () {
+          if (xhr.status !== 200) {
+            destino.innerHTML = "<p>No se han podido cargar las incidencias.</p>";
+            return;
+          }
+          destino.innerHTML = renderizarIncidencias(JSON.parse(xhr.responseText));
+        };
+        xhr.onerror = function () {
+          destino.innerHTML = "<p>No se han podido cargar las incidencias.</p>";
+        };
+        xhr.send();
+      }
+
+      async function pedirJsonFetch(modo) {
+        var destino = hueco("hueco-json");
+        destino.innerHTML = "<p>Cargando incidencias…</p>";
+        try {
+          var respuesta = await fetch("/api/incidencias?modo=" + modo);
+          if (!respuesta.ok) {
+            throw new Error(String(respuesta.status));
+          }
+          destino.innerHTML = renderizarIncidencias(await respuesta.json());
+        } catch (error) {
+          destino.innerHTML = "<p>No se han podido cargar las incidencias.</p>";
+        }
+      }
+
+      document.querySelectorAll("[data-xhr-json]").forEach(function (boton) {
+        boton.addEventListener("click", function () {
+          pedirJsonXhr(boton.getAttribute("data-xhr-json"));
+        });
+      });
+
+      document.querySelectorAll("[data-fetch-json]").forEach(function (boton) {
+        boton.addEventListener("click", function () {
+          pedirJsonFetch(boton.getAttribute("data-fetch-json"));
+        });
+      });
+
+      function recibirIncidencias(datos) {
+        hueco("hueco-jsonp").innerHTML = renderizarIncidencias(datos);
+      }
+
+      document.querySelectorAll("[data-jsonp]").forEach(function (boton) {
+        boton.addEventListener("click", function () {
+          var destino = hueco("hueco-jsonp");
+          destino.innerHTML = "<p>Cargando incidencias…</p>";
+          var script = document.createElement("script");
+          script.src =
+            "/jsonp/incidencias?callback=recibirIncidencias&linea=" + encodeURIComponent(boton.getAttribute("data-jsonp"));
+          script.onload = function () {
+            script.remove();
+          };
+          script.onerror = function () {
+            destino.innerHTML = "<p>No se han podido cargar las incidencias.</p>";
+            script.remove();
+          };
+          document.body.appendChild(script);
+        });
+      });
+    </script>
+  </body>
+</html>

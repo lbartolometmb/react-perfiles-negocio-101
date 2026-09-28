@@ -13,20 +13,82 @@
     </header>
     <main>
       <p>Cargas de este documento en la pestaña: <strong id="cargas">…</strong></p>
-      <article>
+
+      <div class="filtro">
+        <label for="buscar">Buscar línea o parada</label>
+        <input id="buscar" type="search" placeholder="Por ejemplo: Mercado" />
+        <label for="estado">Estado</label>
+        <select id="estado">
+          <option value="">Todos</option>
+          <option value="en servicio">En servicio</option>
+          <option value="retraso leve">Retraso leve</option>
+        </select>
+      </div>
+      <p id="contador-filtro">2 de 2 líneas visibles.</p>
+
+      <article class="linea" data-estado="en servicio" data-texto="L1 Centro Norte Plaza Mayor Hospital Estación Norte">
         <h2>Línea L1</h2>
         <p>Estado: en servicio</p>
-        <a href="/detalle.html">Ver detalle de L1</a>
+        <button type="button" class="desplegar" aria-expanded="false" aria-controls="paradas-l1">Ver paradas</button>
+        <ul id="paradas-l1" class="paradas" hidden>
+          <li>Plaza Mayor</li>
+          <li>Hospital</li>
+          <li>Estación Norte</li>
+        </ul>
+        <p><a href="/detalle.html">Ver detalle de L1</a></p>
       </article>
-      <article>
+      <article class="linea" data-estado="retraso leve" data-texto="L2 Este Sur Mercado Universidad Puerto">
         <h2>Línea L2</h2>
         <p>Estado: retraso leve</p>
+        <button type="button" class="desplegar" aria-expanded="false" aria-controls="paradas-l2">Ver paradas</button>
+        <ul id="paradas-l2" class="paradas" hidden>
+          <li>Mercado</li>
+          <li>Universidad</li>
+          <li>Puerto</li>
+        </ul>
       </article>
+      <p id="sin-resultados" hidden>Ninguna línea coincide con el filtro.</p>
+
+      <p><a href="/ajax.html">Ejemplos AJAX</a></p>
     </main>
     <script>
       const cargas = Number(sessionStorage.getItem("cargas-tradicional") || 0) + 1;
       sessionStorage.setItem("cargas-tradicional", String(cargas));
       document.getElementById("cargas").textContent = String(cargas);
+
+      document.querySelectorAll(".desplegar").forEach(function (boton) {
+        boton.addEventListener("click", function () {
+          const lista = document.getElementById(boton.getAttribute("aria-controls"));
+          const abierto = boton.getAttribute("aria-expanded") === "true";
+          boton.setAttribute("aria-expanded", String(!abierto));
+          boton.textContent = abierto ? "Ver paradas" : "Ocultar paradas";
+          lista.hidden = abierto;
+        });
+      });
+
+      const buscar = document.getElementById("buscar");
+      const estado = document.getElementById("estado");
+      const lineas = document.querySelectorAll(".linea");
+
+      function filtrar() {
+        const texto = buscar.value.trim().toLowerCase();
+        let visibles = 0;
+        lineas.forEach(function (linea) {
+          const coincideTexto = linea.dataset.texto.toLowerCase().includes(texto);
+          const coincideEstado = !estado.value || linea.dataset.estado === estado.value;
+          const visible = coincideTexto && coincideEstado;
+          linea.hidden = !visible;
+          if (visible) {
+            visibles += 1;
+          }
+        });
+        document.getElementById("contador-filtro").textContent =
+          visibles + " de " + lineas.length + " líneas visibles.";
+        document.getElementById("sin-resultados").hidden = visibles > 0;
+      }
+
+      buscar.addEventListener("input", filtrar);
+      estado.addEventListener("change", filtrar);
     </script>
   </body>
 </html>

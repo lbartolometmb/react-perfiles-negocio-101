@@ -12,6 +12,6 @@ La primera vez, en el contenedor: `npm run install:demos` y `npm --prefix demos/
 
 Qué mira cada guía:
 
-- **Tradicional.** Cada enlace recarga el documento. El contador de cargas sube al ir y volver. El detalle tiene URL propia.
+- **Tradicional.** Cada enlace entre listado y detalle recarga el documento; el contador de cargas sube al ir y volver. Dentro de cada documento hay interacción sin recarga: buscador, filtro, desplegables y pestañas. En `/ajax.html`, sin cambiar de documento: HTML construido en el servidor (XMLHttpRequest, formulario, fragmento en fichero y fetch), JSON con función de renderizado y JSONP.
 - **SPA.** Cambiar de vista no recarga el documento: el contador pintado se queda en 1. `TarjetaLinea` solo pinta props; el estado vive en `App`. Recargar en el detalle vuelve al listado.
 - **Next.js.** En `/` la hora ya viene en el HTML del servidor. En `/cliente` el fuente trae la frase de espera y la hora aparece después. En `/flujo` se pide `GET /api/incidencias?modo=ok|vacio|error|lento` y se leen carga, datos, vacío y error.

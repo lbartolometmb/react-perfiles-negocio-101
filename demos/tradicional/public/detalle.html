@@ -16,6 +16,21 @@
       <article>
         <h2>L1 — Centro / Norte</h2>
         <p>Frecuencia habitual: 4 minutos. Ahora mismo: en servicio.</p>
+
+        <div class="pestanas" role="tablist" aria-label="Información de L1">
+          <button type="button" role="tab" id="tab-horario" aria-controls="panel-horario" aria-selected="true">Horario</button>
+          <button type="button" role="tab" id="tab-paradas" aria-controls="panel-paradas" aria-selected="false">Paradas</button>
+          <button type="button" role="tab" id="tab-accesibilidad" aria-controls="panel-accesibilidad" aria-selected="false">Accesibilidad</button>
+        </div>
+        <div role="tabpanel" id="panel-horario" aria-labelledby="tab-horario">
+          <p>Primer servicio 6:00. Último servicio 23:30.</p>
+        </div>
+        <div role="tabpanel" id="panel-paradas" aria-labelledby="tab-paradas" hidden>
+          <p>Plaza Mayor · Hospital · Estación Norte.</p>
+        </div>
+        <div role="tabpanel" id="panel-accesibilidad" aria-labelledby="tab-accesibilidad" hidden>
+          <p>Andén norte con acceso alternativo por la calle lateral.</p>
+        </div>
       </article>
       <p><a href="/">Volver al listado</a></p>
     </main>
@@ -23,6 +38,17 @@
       const cargas = Number(sessionStorage.getItem("cargas-detalle") || 0) + 1;
       sessionStorage.setItem("cargas-detalle", String(cargas));
       document.getElementById("cargas").textContent = String(cargas);
+
+      const pestanas = document.querySelectorAll('[role="tab"]');
+      pestanas.forEach(function (pestana) {
+        pestana.addEventListener("click", function () {
+          pestanas.forEach(function (otra) {
+            const activa = otra === pestana;
+            otra.setAttribute("aria-selected", String(activa));
+            document.getElementById(otra.getAttribute("aria-controls")).hidden = !activa;
+          });
+        });
+      });
     </script>
   </body>
 </html>
