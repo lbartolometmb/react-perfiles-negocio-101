@@ -2,6 +2,7 @@ const estado = {
   lineas: [],
   filtro: "",
   pintadas: 0,
+  peticiones: 0,
 };
 
 const app = document.getElementById("app");
@@ -128,18 +129,51 @@ app.addEventListener("input", function (evento) {
 
 window.addEventListener("popstate", pintar);
 
+const botonRecargar = document.getElementById("recargar");
+const estadoDatos = document.getElementById("estado-datos");
+
+async function pedirLineas() {
+  estado.peticiones += 1;
+  document.getElementById("peticiones").textContent = estado.peticiones;
+  const respuesta = await fetch("/datos.json", { cache: "no-store" });
+  if (!respuesta.ok) {
+    throw new Error(String(respuesta.status));
+  }
+  return (await respuesta.json()).lineas;
+}
+
+function hora() {
+  return new Date().toLocaleTimeString("es-ES");
+}
+
+async function recargarDatos() {
+  botonRecargar.disabled = true;
+  estadoDatos.textContent = "Recargando…";
+  try {
+    estado.lineas = await pedirLineas();
+    pintar();
+    estadoDatos.textContent = "Datos recargados a las " + hora() + ".";
+  } catch (error) {
+    estadoDatos.textContent = "No se han podido recargar. Se siguen mostrando los datos anteriores.";
+  } finally {
+    botonRecargar.disabled = false;
+  }
+}
+
+botonRecargar.addEventListener("click", recargarDatos);
+
 async function arrancar() {
   contarCarga();
   app.innerHTML = "<p>Cargando líneas…</p>";
+  botonRecargar.disabled = true;
   try {
-    const respuesta = await fetch("/datos.json");
-    if (!respuesta.ok) {
-      throw new Error(String(respuesta.status));
-    }
-    estado.lineas = (await respuesta.json()).lineas;
+    estado.lineas = await pedirLineas();
     pintar();
+    estadoDatos.textContent = "Datos cargados a las " + hora() + ".";
   } catch (error) {
     app.innerHTML = "<p>No se han podido cargar las líneas.</p>";
+  } finally {
+    botonRecargar.disabled = false;
   }
 }
 

@@ -48,6 +48,33 @@ a {
   color: #0b5cab;
 }
 
+.recarga {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.recarga button {
+  font: inherit;
+  padding: 0.35rem 0.8rem;
+  border: 1px solid #5a2a5e;
+  border-radius: 0.4rem;
+  background: white;
+  color: #5a2a5e;
+  cursor: pointer;
+}
+
+.recarga button:disabled {
+  opacity: 0.5;
+  cursor: wait;
+}
+
+#estado-datos {
+  color: #4a5561;
+  font-size: 0.9rem;
+}
+
 label {
   display: block;
   font-weight: 600;

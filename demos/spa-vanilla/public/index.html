@@ -16,7 +16,12 @@
     <main>
       <p class="contadores">
         Cargas de este documento en la pestaña: <strong id="cargas">—</strong><br />
-        Vistas pintadas por JavaScript: <strong id="pintadas">0</strong>
+        Vistas pintadas por JavaScript: <strong id="pintadas">0</strong><br />
+        Peticiones de datos: <strong id="peticiones">0</strong>
+      </p>
+      <p class="recarga">
+        <button type="button" id="recargar">Recargar datos</button>
+        <span id="estado-datos" aria-live="polite"></span>
       </p>
       <div id="app"></div>
       <noscript><p>Esta página necesita JavaScript: sin él no hay nada que ver.</p></noscript>

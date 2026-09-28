@@ -23,15 +23,16 @@ Todo está en `demos/spa-vanilla/`.
 | Fichero | Qué hace |
 |---------|----------|
 | `server.js` | Escucha en el 8081. Cualquier dirección sin extensión (`/`, `/lineas/L1`, `/lo-que-sea`) recibe el mismo `index.html`. Los ficheros con extensión se sirven tal cual |
-| `public/index.html` | El documento único. Encabezado, dos contadores y un `<div id="app">` vacío |
+| `public/index.html` | El documento único. Encabezado, tres contadores, el botón «Recargar datos» y un `<div id="app">` vacío |
 | `public/app.js` | Toda la aplicación: estado, vistas, rutas y eventos |
 | `public/datos.json` | L1 y L2 con tramo, estado, frecuencia y paradas |
 | `public/estilos.css` | Aspecto. No interviene en el comportamiento |
 
-## Los dos contadores
+## Los tres contadores
 
 - «Cargas de este documento en la pestaña» se guarda en `sessionStorage`, como en la página tradicional. Sube solo si el navegador carga `index.html` otra vez.
 - «Vistas pintadas por JavaScript» vive en memoria. Sube cada vez que `app.js` redibuja la zona principal y vuelve a 1 cuando el documento se recarga.
+- «Peticiones de datos» cuenta las veces que se ha pedido `datos.json`: una al arrancar y una más por cada clic en «Recargar datos».
 
 Si al moverse por la aplicación sube el segundo y no el primero, se está viendo una SPA.
 
@@ -42,3 +43,4 @@ Si al moverse por la aplicación sube el segundo y no el primero, se está viend
 3. Atrás y Adelante del navegador funcionan.
 4. El filtro escrito en el listado sigue ahí al volver del detalle.
 5. `http://localhost:8081/lineas/L1` se puede pegar en otra pestaña y abre el detalle.
+6. «Recargar datos» trae los datos de nuevo sin recargar la página.

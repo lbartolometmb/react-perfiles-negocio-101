@@ -40,9 +40,13 @@ Es un router. Las bibliotecas de rutas hacen lo mismo con más casos: parámetro
 - **Escribir en el buscador.** Guarda el texto en `estado.filtro` y vuelve a pintar. Como `pintar` sustituye el HTML, el campo se crea de nuevo en cada tecla; el código devuelve el foco y la posición del cursor para que se pueda seguir escribiendo.
 - **`popstate`.** Atrás y Adelante vuelven a pintar según la nueva dirección.
 
-## El arranque
+## El arranque y la recarga
 
-`arrancar` sube el contador de cargas, pide `/datos.json` con `fetch`, guarda las líneas en `estado` y pinta. Si la petición falla, deja «No se han podido cargar las líneas.»
+`pedirLineas` es la única función que habla con el servidor: sube el contador de peticiones, hace `fetch("/datos.json", { cache: "no-store" })` y devuelve las líneas.
+
+`arrancar` sube el contador de cargas, llama a `pedirLineas`, guarda el resultado en `estado` y pinta. Si la petición falla, deja «No se han podido cargar las líneas.»
+
+`recargarDatos`, conectada al botón, hace casi lo mismo sin tocar el contador de cargas ni el filtro: desactiva el botón, llama a `pedirLineas`, sustituye `estado.lineas` y pinta la vista en la que se esté, listado o detalle. Si falla, no toca `estado.lineas`, y la vista sigue con los datos de antes. El botón está en `index.html`, fuera de `#app`, porque no pertenece a ninguna vista: sigue ahí en el listado y en el detalle.
 
 ## Lo que React aporta encima
 
