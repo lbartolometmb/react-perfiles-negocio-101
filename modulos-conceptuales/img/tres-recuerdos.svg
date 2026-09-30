@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="390" viewBox="0 0 880 390" role="img">
+<title>Tres alcances del estado: la pieza, la pantalla y la aplicación. El recuerdo sube solo hasta donde hace falta.</title>
+<rect width="100%" height="100%" fill="#f3efe6"/>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#1e3a5f"/>
+  </marker>
+  <marker id="arrSoft" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#5c6b7a"/>
+  </marker>
+  <marker id="arrCoral" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#9a4638"/>
+  </marker>
+</defs>
+<text x="440" y="40" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#1e2430">Tres sitios donde puede vivir un recuerdo</text>
+<rect x="28" y="70" width="260" height="210" rx="16" fill="#f8e6b0" stroke="#8d6a12" stroke-width="2"/>
+<text x="158" y="116" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="700" fill="#1e2430">En la pieza</text>
+<text x="158" y="166" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#1e2430">Un desplegable abierto.</text>
+<text x="158" y="192" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#1e2430">Al salir de la pieza, se olvida.</text>
+<rect x="310" y="70" width="260" height="210" rx="16" fill="#d5e4f7" stroke="#2c5f94" stroke-width="2"/>
+<text x="440" y="116" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="700" fill="#1e2430">En la pantalla</text>
+<text x="440" y="166" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#1e2430">El texto de búsqueda.</text>
+<text x="440" y="192" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#1e2430">Lo comparten búsqueda y lista.</text>
+<rect x="592" y="70" width="260" height="210" rx="16" fill="#e3dcf5" stroke="#66558f" stroke-width="2"/>
+<text x="722" y="116" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="700" fill="#1e2430">En la aplicación</text>
+<text x="722" y="166" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#1e2430">La sesión, un aviso global.</text>
+<text x="722" y="192" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#1e2430">Varias pantallas lo leen.</text>
+<text x="440" y="320" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#3d4654">Sube el recuerdo hasta la pieza más baja que todavía alcance a todas las que lo necesitan.</text>
+<text x="440" y="348" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#3d4654">Si solo lo usa una fila, dejarlo en la aplicación entera estorba.</text>
+</svg>

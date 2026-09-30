@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="330" viewBox="0 0 900 330" role="img">
+<title>Listado, detalle, panel y alarma se leen con la misma pregunta: de qué dato sale cada caja.</title>
+<rect width="100%" height="100%" fill="#f3efe6"/>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#1e3a5f"/>
+  </marker>
+  <marker id="arrSoft" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#5c6b7a"/>
+  </marker>
+  <marker id="arrCoral" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#9a4638"/>
+  </marker>
+</defs>
+<text x="450" y="40" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#1e2430">Cuatro pantallas, la misma pregunta</text>
+<rect x="24" y="70" width="200" height="180" rx="14" fill="#fffdf8" stroke="#2c5f94" stroke-width="2"/>
+<text x="124" y="116" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="700" fill="#1e2430">Listado</text>
+<text x="124" y="160" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">Muchas filas,</text>
+<text x="124" y="184" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">una pieza repetida.</text>
+<rect x="242" y="70" width="200" height="180" rx="14" fill="#fffdf8" stroke="#2c5f94" stroke-width="2"/>
+<text x="342" y="116" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="700" fill="#1e2430">Detalle</text>
+<text x="342" y="160" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">Una identidad,</text>
+<text x="342" y="184" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">el resto son props.</text>
+<rect x="460" y="70" width="200" height="180" rx="14" fill="#fffdf8" stroke="#2c5f94" stroke-width="2"/>
+<text x="560" y="116" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="700" fill="#1e2430">Panel</text>
+<text x="560" y="160" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">Varios bloques,</text>
+<text x="560" y="184" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">cada uno con su dato.</text>
+<rect x="678" y="70" width="200" height="180" rx="14" fill="#fffdf8" stroke="#2c5f94" stroke-width="2"/>
+<text x="778" y="116" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="700" fill="#1e2430">Alarma</text>
+<text x="778" y="160" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">El dato llega solo,</text>
+<text x="778" y="184" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">la fila aparece.</text>
+<text x="450" y="290" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e2430">¿De qué dato sale esta caja, y quién lo modifica?</text>
+</svg>

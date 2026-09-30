@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="390" viewBox="0 0 880 390" role="img">
+<title>Un dato entra en una pieza y sale la fila que se ve. Si el dato cambia, la misma pieza describe otra fila.</title>
+<rect width="100%" height="100%" fill="#f3efe6"/>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#1e3a5f"/>
+  </marker>
+  <marker id="arrSoft" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#5c6b7a"/>
+  </marker>
+  <marker id="arrCoral" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#9a4638"/>
+  </marker>
+</defs>
+<rect x="36" y="120" width="220" height="120" rx="16" fill="#f8e6b0" stroke="#8d6a12" stroke-width="2"/>
+<text x="146" y="168" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#8d6a12">Dato</text>
+<text x="146" y="198" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#1e2430">L2</text>
+<text x="146" y="222" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#1e2430">retraso leve</text>
+<line x1="266" y1="180" x2="330" y2="180" stroke="#1e3a5f" stroke-width="2.2" marker-end="url(#arr)"/>
+<rect x="338" y="100" width="200" height="160" rx="18" fill="#d5e4f7" stroke="#2c5f94" stroke-width="2.5"/>
+<text x="438" y="158" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#2c5f94">Pieza</text>
+<text x="438" y="190" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#1e2430">FilaLinea</text>
+<text x="438" y="218" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#1e3a5f">describe la fila</text>
+<line x1="548" y1="180" x2="612" y2="180" stroke="#1e3a5f" stroke-width="2.2" marker-end="url(#arr)"/>
+<rect x="620" y="120" width="224" height="120" rx="16" fill="#fffdf8" stroke="#2c333d" stroke-width="2"/>
+<text x="732" y="168" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#5c6570">En pantalla</text>
+<text x="732" y="202" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="18" font-weight="700" fill="#1e2430">L2 · Retraso leve</text>
+<text x="440" y="56" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#1e2430">La interfaz es una función de los datos</text>
+<text x="440" y="320" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#3d4654">Si el dato pasa a «en servicio», la misma pieza describe otra fila.</text>
+<text x="440" y="346" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#3d4654">Nadie edita el letrero a mano en paralelo.</text>
+</svg>

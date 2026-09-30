@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="430" viewBox="0 0 880 430" role="img">
+<title>ListaLineas decide qué filas hay. FilaLinea solo pinta el nombre y el estado, y avisa si la pulsan.</title>
+<rect width="100%" height="100%" fill="#f3efe6"/>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#1e3a5f"/>
+  </marker>
+  <marker id="arrSoft" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#5c6b7a"/>
+  </marker>
+  <marker id="arrCoral" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#9a4638"/>
+  </marker>
+</defs>
+<text x="440" y="42" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#1e2430">Quién decide y quién pinta</text>
+<rect x="40" y="80" width="360" height="200" rx="16" fill="#e3dcf5" stroke="#66558f" stroke-width="2"/>
+<text x="220" y="120" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#66558f">Decide</text>
+<text x="220" y="156" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#1e2430">ListaLineas</text>
+<text x="220" y="190" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#1e2430">sabe el filtro</text>
+<text x="220" y="214" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#1e2430">elige qué filas existen</text>
+<text x="220" y="248" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#66558f">lógica</text>
+<line x1="410" y1="180" x2="470" y2="180" stroke="#1e3a5f" stroke-width="2.2" marker-end="url(#arr)"/>
+<text x="440" y="166" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1e3a5f">props</text>
+<rect x="480" y="80" width="360" height="200" rx="16" fill="#f8e6b0" stroke="#8d6a12" stroke-width="2"/>
+<text x="660" y="120" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#8d6a12">Pinta</text>
+<text x="660" y="156" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#1e2430">FilaLinea</text>
+<text x="660" y="190" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#1e2430">recibe nombre y estado</text>
+<text x="660" y="214" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#1e2430">no sabe cuántas líneas hay</text>
+<text x="660" y="248" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#8d6a12">presentación</text>
+<line x1="640" y1="328" x2="240" y2="328" stroke="#9a4638" stroke-width="2.2" marker-end="url(#arrCoral)"/>
+<text x="440" y="316" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#9a4638">la fila avisa: han pulsado L2</text>
+<text x="440" y="390" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#3d4654">El aviso sube. El dato baja. La fila sigue siendo intercambiable.</text>
+</svg>

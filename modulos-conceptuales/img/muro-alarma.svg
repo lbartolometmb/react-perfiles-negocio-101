@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="530" viewBox="0 0 880 530" role="img">
+<title>Muro de alarmas: un letrero de conexión en vivo, una lista de filas y el detalle de la alarma elegida.</title>
+<rect width="100%" height="100%" fill="#f3efe6"/>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#1e3a5f"/>
+  </marker>
+  <marker id="arrSoft" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#5c6b7a"/>
+  </marker>
+  <marker id="arrCoral" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#9a4638"/>
+  </marker>
+</defs>
+<rect x="150" y="20" width="580" height="430" rx="16" fill="#fffdf8" stroke="#2c333d" stroke-width="2"/>
+<rect x="150" y="20" width="580" height="36" rx="16" fill="#e7e2d8"/>
+<rect x="150" y="38" width="580" height="20" fill="#e7e2d8"/>
+<circle cx="172" cy="38" r="5" fill="#e07a5f"/>
+<circle cx="188" cy="38" r="5" fill="#e6b325"/>
+<circle cx="204" cy="38" r="5" fill="#81b29a"/>
+<text x="440" y="42" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#5c6570">muro de alarmas</text>
+<rect x="174" y="72" width="150" height="32" rx="16" fill="#d5ead6" stroke="#2f6b3a" stroke-width="1.5"/>
+<text x="249" y="93" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#2f6b3a">En vivo</text>
+<text x="174" y="132" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#5c6570">Abiertas</text>
+<rect x="174" y="142" width="250" height="250" rx="12" fill="#f6d5ce" stroke="#9a4638" stroke-width="2"/>
+<text x="188" y="166" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" fill="#9a4638">FilaAlarma</text>
+<rect x="188" y="188" width="222" height="40" rx="8" fill="#fffdf8" stroke="#9a4638" stroke-width="1.5"/>
+<text x="200" y="213" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1e2430">L2 · grave · ahora</text>
+<rect x="188" y="240" width="222" height="40" rx="8" fill="#fffdf8" stroke="#9a4638" stroke-width="1.5"/>
+<text x="200" y="265" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1e2430">B12 · leve · hace 4 min</text>
+<rect x="188" y="292" width="222" height="40" rx="8" fill="#fffdf8" stroke="#9a4638" stroke-width="1.5"/>
+<text x="200" y="317" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1e2430">L1 · aviso · hace 9 min</text>
+<text x="450" y="132" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#5c6570">Detalle</text>
+<rect x="450" y="142" width="250" height="250" rx="12" fill="#f8e6b0" stroke="#8d6a12" stroke-width="2"/>
+<text x="464" y="174" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" fill="#8d6a12">DetalleAlarma</text>
+<text x="464" y="214" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#1e2430">L2</text>
+<text x="464" y="244" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#1e2430">Gravedad: grave</text>
+<text x="464" y="270" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">Vía abierta.</text>
+<text x="464" y="294" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">El dato llegó solo.</text>
+<text x="440" y="490" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#3d4654">EstadoConexion dice si oímos. FilaAlarma se repite. El detalle es una identidad.</text>
+</svg>

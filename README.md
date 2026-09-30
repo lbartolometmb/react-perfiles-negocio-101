@@ -1,10 +1,25 @@
 # React, Next.js y apps híbridas para perfiles de negocio
 
-[Siguiente página →](modulos/M01-ecosistema-react/README.md)
+[Siguiente página →](modulos-conceptuales/README.md)
 
-Teoría y demostración guiada. Cada página enlaza con la anterior y la siguiente.
+Dos lecturas. Los [conceptos](modulos-conceptuales/README.md) explican el ecosistema con esquemas, al estilo de pensar la interfaz a partir de un boceto, sin abrir un editor. Las [demos](demos/README.md) enseñan las mismas ideas con aplicaciones pequeñas.
 
-Las demos se arrancan desde [Demos](demos/README.md).
+## Conceptos
+
+[Índice](modulos-conceptuales/README.md)
+
+- [C01 — El ecosistema](modulos-conceptuales/C01-ecosistema/README.md)
+- [C02 — Pensar la interfaz](modulos-conceptuales/C02-pensar-en-la-interfaz/README.md)
+- [C03 — La arquitectura](modulos-conceptuales/C03-arquitectura/README.md)
+- [C04 — Sistemas y datos](modulos-conceptuales/C04-sistemas/README.md)
+- [C05 — Calidad y revisión](modulos-conceptuales/C05-calidad/README.md)
+- [C06 — Next, Gatsby y Remix](modulos-conceptuales/C06-marcos/README.md)
+- [C07 — Web, móvil y escritorio](modulos-conceptuales/C07-hibridos/README.md)
+- [C08 — Casos guiados](modulos-conceptuales/C08-casos/README.md)
+
+## Demos guiadas
+
+Teoría y demostración. Cada página enlaza con la anterior y la siguiente. Las aplicaciones se arrancan desde [Demos](demos/README.md).
 
 ## M01 — Ecosistema React
 
@@ -113,4 +128,6 @@ Las demos se arrancan desde [Demos](demos/README.md).
 
 ## Empieza aquí
 
-[M01 — Ecosistema React](modulos/M01-ecosistema-react/README.md)
+[Conceptos, con esquemas](modulos-conceptuales/README.md)
+
+Si quieres ver las aplicaciones: [M01 — Ecosistema React](modulos/M01-ecosistema-react/README.md)

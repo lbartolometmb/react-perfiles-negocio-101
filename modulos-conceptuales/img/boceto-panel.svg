@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="652" viewBox="0 0 880 652" role="img">
+<title>Boceto de un panel de servicio: búsqueda, filtro, grupos Metro y Bus, y una fila por línea.</title>
+<rect width="100%" height="100%" fill="#f3efe6"/>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#1e3a5f"/>
+  </marker>
+  <marker id="arrSoft" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#5c6b7a"/>
+  </marker>
+  <marker id="arrCoral" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#9a4638"/>
+  </marker>
+</defs>
+<rect x="170" y="24" width="540" height="560" rx="16" fill="#fffdf8" stroke="#2c333d" stroke-width="2"/>
+<rect x="170" y="24" width="540" height="36" rx="16" fill="#e7e2d8"/>
+<rect x="170" y="42" width="540" height="20" fill="#e7e2d8"/>
+<circle cx="192" cy="42" r="5" fill="#e07a5f"/>
+<circle cx="208" cy="42" r="5" fill="#e6b325"/>
+<circle cx="224" cy="42" r="5" fill="#81b29a"/>
+<text x="440" y="46" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#5c6570">boceto</text>
+<text x="210" y="100" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#1e2430">Panel de servicio</text>
+<rect x="200" y="118" width="480" height="40" rx="8" fill="#fff" stroke="#2c333d" stroke-width="1.6"/>
+<text x="216" y="144" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#8a8175">Buscar línea…</text>
+<rect x="200" y="172" width="16" height="16" rx="3" fill="#fff" stroke="#2c333d" stroke-width="1.6"/>
+<text x="224" y="186" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#1e2430">Solo incidencias</text>
+<text x="200" y="230" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#5c6570">METRO</text>
+<rect x="200" y="244" width="480" height="52" rx="8" fill="#fff" stroke="#2c333d" stroke-width="1.6"/>
+<text x="216" y="276" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e2430">L1</text>
+<text x="520" y="276" text-anchor="end" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">En servicio</text>
+<rect x="200" y="308" width="480" height="52" rx="8" fill="#fff" stroke="#2c333d" stroke-width="1.6"/>
+<text x="216" y="340" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e2430">L2</text>
+<text x="520" y="340" text-anchor="end" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">Retraso leve</text>
+<text x="200" y="392" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#5c6570">BUS</text>
+<rect x="200" y="404" width="480" height="52" rx="8" fill="#fff" stroke="#2c333d" stroke-width="1.6"/>
+<text x="216" y="436" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e2430">B12</text>
+<text x="520" y="436" text-anchor="end" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">Interrumpida</text>
+<text x="440" y="620" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#3d4654">Primero el dibujo. Las piezas salen de rodear lo que ya se entiende.</text>
+</svg>

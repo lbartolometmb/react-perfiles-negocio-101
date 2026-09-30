@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="430" viewBox="0 0 880 430" role="img">
+<title>Cuatro plantas de un proyecto React: pantallas, componentes, estado y datos, y estilos. Se publica el resultado de la construcción.</title>
+<rect width="100%" height="100%" fill="#f3efe6"/>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#1e3a5f"/>
+  </marker>
+  <marker id="arrSoft" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#5c6b7a"/>
+  </marker>
+  <marker id="arrCoral" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#9a4638"/>
+  </marker>
+</defs>
+<text x="300" y="42" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#1e2430">La estantería del proyecto</text>
+<rect x="40" y="70" width="520" height="68" rx="12" fill="#d5e4f7" stroke="#2c5f94" stroke-width="2"/>
+<text x="60" y="100" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="18" font-weight="700" fill="#1e2430">Pantallas</text>
+<text x="60" y="122" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">una por tarea: listado, detalle, alarma</text>
+<rect x="40" y="150" width="520" height="68" rx="12" fill="#f8e6b0" stroke="#8d6a12" stroke-width="2"/>
+<text x="60" y="180" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="18" font-weight="700" fill="#1e2430">Componentes</text>
+<text x="60" y="202" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">las piezas que se repiten</text>
+<rect x="40" y="230" width="520" height="68" rx="12" fill="#e3dcf5" stroke="#66558f" stroke-width="2"/>
+<text x="60" y="260" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="18" font-weight="700" fill="#1e2430">Estado y datos</text>
+<text x="60" y="282" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">recuerdos de pantalla y acceso a la API</text>
+<rect x="40" y="310" width="520" height="68" rx="12" fill="#d5ead6" stroke="#2f6b3a" stroke-width="2"/>
+<text x="60" y="340" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="18" font-weight="700" fill="#1e2430">Estilos</text>
+<text x="60" y="362" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">cómo se ve, separado de qué significa</text>
+<rect x="590" y="70" width="250" height="308" rx="14" fill="#fffdf8" stroke="#6f675c" stroke-width="2"/>
+<text x="715" y="108" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e2430">Lo que se publica</text>
+<text x="715" y="150" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">no es esta</text>
+<text x="715" y="174" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">estantería.</text>
+<text x="715" y="214" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">Es el resultado</text>
+<text x="715" y="238" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">del taller</text>
+<text x="715" y="262" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">Node.</text>
+<text x="715" y="310" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">Un marco como</text>
+<text x="715" y="334" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">Next cambia</text>
+<text x="715" y="358" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">los nombres</text>
+</svg>

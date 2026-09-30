@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="444" viewBox="0 0 880 444" role="img">
+<title>Angular, React y Vue comparados: las tres describen la interfaz; React deja el marco para más adelante.</title>
+<rect width="100%" height="100%" fill="#f3efe6"/>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#1e3a5f"/>
+  </marker>
+  <marker id="arrSoft" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#5c6b7a"/>
+  </marker>
+  <marker id="arrCoral" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#9a4638"/>
+  </marker>
+</defs>
+<text x="440" y="48" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#1e2430">Tres herramientas, un mismo trabajo</text>
+<rect x="28" y="78" width="260" height="250" rx="16" fill="#e7e2d8" stroke="#6f675c" stroke-width="2"/>
+<text x="158" y="130" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="26" font-weight="700" fill="#1e2430">Angular</text>
+<text x="158" y="168" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e3a5f">Marco completo</text>
+<text x="158" y="214" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#1e2430">Trae routing, formularios</text>
+<text x="158" y="238" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#1e2430">y bastante opinión de serie.</text>
+<rect x="310" y="78" width="260" height="250" rx="16" fill="#d5e4f7" stroke="#2c5f94" stroke-width="2"/>
+<text x="440" y="130" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="26" font-weight="700" fill="#1e2430">React</text>
+<text x="440" y="168" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e3a5f">Biblioteca de interfaz</text>
+<text x="440" y="214" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#1e2430">Trae componentes y estado.</text>
+<text x="440" y="238" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#1e2430">El marco se añade aparte.</text>
+<rect x="592" y="78" width="260" height="250" rx="16" fill="#d5ead6" stroke="#2f6b3a" stroke-width="2"/>
+<text x="722" y="130" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="26" font-weight="700" fill="#1e2430">Vue</text>
+<text x="722" y="168" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e3a5f">Biblioteca y plantilla</text>
+<text x="722" y="214" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#1e2430">Misma idea de piezas.</text>
+<text x="722" y="238" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#1e2430">La plantilla se parece al HTML.</text>
+<rect x="28" y="352" width="824" height="64" rx="12" fill="#fffdf8" stroke="#e2dcd0" stroke-width="1.5"/>
+<text x="440" y="390" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#1e2430">Las tres describen la interfaz a partir de datos. No son tres bases de datos ni tres servidores.</text>
+</svg>

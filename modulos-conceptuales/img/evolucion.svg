@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="480" viewBox="0 0 880 480" role="img">
+<title>Tres momentos de la web: documentos, páginas escritas por el servidor y una página que se queda mientras cambia un trozo.</title>
+<rect width="100%" height="100%" fill="#f3efe6"/>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#1e3a5f"/>
+  </marker>
+  <marker id="arrSoft" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#5c6b7a"/>
+  </marker>
+  <marker id="arrCoral" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#9a4638"/>
+  </marker>
+</defs>
+<rect x="28" y="28" width="260" height="390" rx="16" fill="#fffdf8" stroke="#e2dcd0" stroke-width="1.5"/>
+<circle cx="56" cy="58" r="14" fill="#1e3a5f"/>
+<text x="56" y="63" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#fffdf8">1</text>
+<text x="80" y="63" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e2430">Documentos enlazados</text>
+<rect x="310" y="28" width="260" height="390" rx="16" fill="#fffdf8" stroke="#e2dcd0" stroke-width="1.5"/>
+<circle cx="338" cy="58" r="14" fill="#1e3a5f"/>
+<text x="338" y="63" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#fffdf8">2</text>
+<text x="362" y="63" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e2430">El servidor escribe</text>
+<rect x="592" y="28" width="260" height="390" rx="16" fill="#fffdf8" stroke="#e2dcd0" stroke-width="1.5"/>
+<circle cx="620" cy="58" r="14" fill="#1e3a5f"/>
+<text x="620" y="63" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#fffdf8">3</text>
+<text x="644" y="63" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e2430">La página se queda</text>
+<rect x="52" y="96" width="150" height="92" rx="8" fill="#fff" stroke="#2c333d" stroke-width="2"/>
+<text x="68" y="128" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e2430">Horarios</text>
+<text x="68" y="154" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#5c6570">L1 · L2 · B12</text>
+<rect x="118" y="214" width="150" height="92" rx="8" fill="#fff" stroke="#2c333d" stroke-width="2"/>
+<text x="134" y="246" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e2430">Línea L2</text>
+<text x="134" y="272" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#5c6570">otra hoja</text>
+<line x1="128" y1="188" x2="168" y2="210" stroke="#1e3a5f" stroke-width="2.2" marker-end="url(#arr)"/>
+<text x="158" y="360" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">Un enlace abre</text>
+<text x="158" y="382" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">un documento nuevo.</text>
+<rect x="334" y="110" width="88" height="64" rx="8" fill="#e7e2d8" stroke="#6f675c" stroke-width="2"/>
+<text x="378" y="138" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#1e2430">Servidor</text>
+<text x="378" y="156" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#3d4654">escribe HTML</text>
+<line x1="422" y1="142" x2="468" y2="142" stroke="#1e3a5f" stroke-width="2.2" marker-end="url(#arr)"/>
+<rect x="472" y="100" width="74" height="86" rx="6" fill="#fff" stroke="#2c333d" stroke-width="2"/>
+<text x="509" y="132" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#1e2430">Página</text>
+<text x="509" y="152" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1e2430">entera</text>
+<text x="440" y="250" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">Pulsar «buscar»</text>
+<text x="440" y="272" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">sustituye todo</text>
+<text x="440" y="294" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">lo que había.</text>
+<text x="440" y="360" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">El navegador espera</text>
+<text x="440" y="382" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">un documento.</text>
+<rect x="616" y="100" width="212" height="176" rx="10" fill="#fff" stroke="#2c333d" stroke-width="2"/>
+<rect x="616" y="100" width="212" height="28" rx="10" fill="#e7e2d8"/>
+<rect x="616" y="118" width="212" height="12" fill="#e7e2d8"/>
+<text x="722" y="119" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" fill="#1e2430">Panel</text>
+<rect x="630" y="140" width="184" height="28" rx="6" fill="#fff" stroke="#c9c1b4" stroke-width="1.5"/>
+<text x="642" y="159" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#8a8175">Buscar…</text>
+<rect x="630" y="178" width="184" height="36" rx="6" fill="#f8e6b0" stroke="#8d6a12" stroke-width="2"/>
+<text x="642" y="201" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#1e2430">L2  ·  retraso leve</text>
+<rect x="630" y="222" width="184" height="28" rx="6" fill="#fff" stroke="#e2dcd0" stroke-width="1.5"/>
+<text x="642" y="241" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#5c6570">B12  ·  en servicio</text>
+<text x="722" y="330" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">El menú sigue.</text>
+<text x="722" y="352" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">Cambia la fila</text>
+<text x="722" y="374" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">cuyo dato cambió.</text>
+<text x="460" y="450" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">React organiza esta tercera forma. No inventa la web: ordena cómo se describe la pantalla.</text>
+</svg>

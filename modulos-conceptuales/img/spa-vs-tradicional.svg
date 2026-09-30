@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="552" viewBox="0 0 880 552" role="img">
+<title>Comparación de un clic: la página tradicional sustituye el documento; la SPA mantiene la página y actualiza una región.</title>
+<rect width="100%" height="100%" fill="#f3efe6"/>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#1e3a5f"/>
+  </marker>
+  <marker id="arrSoft" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#5c6b7a"/>
+  </marker>
+  <marker id="arrCoral" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#9a4638"/>
+  </marker>
+</defs>
+<rect x="24" y="24" width="406" height="470" rx="16" fill="#fffdf8" stroke="#e2dcd0" stroke-width="1.5"/>
+<rect x="450" y="24" width="406" height="470" rx="16" fill="#fffdf8" stroke="#e2dcd0" stroke-width="1.5"/>
+<text x="227" y="62" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="700" fill="#1e2430">Página tradicional</text>
+<text x="653" y="62" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="700" fill="#1e2430">Aplicación de una página</text>
+<circle cx="62" cy="90" r="14" fill="#9a4638"/>
+<text x="62" y="95" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#fff">1</text>
+<text x="88" y="96" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#1e2430">La persona pulsa «L2».</text>
+<circle cx="62" cy="162" r="14" fill="#9a4638"/>
+<text x="62" y="167" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#fff">2</text>
+<text x="88" y="168" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#1e2430">El navegador pide otra dirección.</text>
+<circle cx="62" cy="234" r="14" fill="#9a4638"/>
+<text x="62" y="239" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#fff">3</text>
+<text x="88" y="240" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#1e2430">El servidor envía un documento entero.</text>
+<circle cx="62" cy="306" r="14" fill="#9a4638"/>
+<text x="62" y="311" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#fff">4</text>
+<text x="88" y="312" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#1e2430">La pantalla anterior desaparece.</text>
+<circle cx="488" cy="90" r="14" fill="#2f6b3a"/>
+<text x="488" y="95" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#fff">1</text>
+<text x="514" y="96" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#1e2430">La persona pulsa «L2».</text>
+<circle cx="488" cy="162" r="14" fill="#2f6b3a"/>
+<text x="488" y="167" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#fff">2</text>
+<text x="514" y="168" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#1e2430">La página que ya está se queda.</text>
+<circle cx="488" cy="234" r="14" fill="#2f6b3a"/>
+<text x="488" y="239" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#fff">3</text>
+<text x="514" y="240" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#1e2430">Se pide un dato, o ya estaba.</text>
+<circle cx="488" cy="306" r="14" fill="#2f6b3a"/>
+<text x="488" y="311" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#fff">4</text>
+<text x="514" y="312" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#1e2430">Se vuelve a describir solo el detalle.</text>
+<text x="227" y="400" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">Tiene sentido cuando cada paso</text>
+<text x="227" y="422" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">es un documento distinto.</text>
+<text x="653" y="400" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">Tiene sentido cuando la persona</text>
+<text x="653" y="422" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">trabaja un rato en la misma vista.</text>
+<text x="440" y="524" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">Las dos viven en el navegador. Las dos hablan con un servidor. Cambia quién fabrica la siguiente vista.</text>
+</svg>

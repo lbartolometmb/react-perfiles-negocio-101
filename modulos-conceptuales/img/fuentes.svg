@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="530" viewBox="0 0 880 530" role="img">
+<title>Cuatro vías hacia la pantalla: una API REST, un fichero JSON, un broker de mensajes y un WebSocket.</title>
+<rect width="100%" height="100%" fill="#f3efe6"/>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#1e3a5f"/>
+  </marker>
+  <marker id="arrSoft" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#5c6b7a"/>
+  </marker>
+  <marker id="arrCoral" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#9a4638"/>
+  </marker>
+</defs>
+<rect x="330" y="150" width="220" height="120" rx="16" fill="#f8e6b0" stroke="#8d6a12" stroke-width="2"/>
+<text x="440" y="200" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="700" fill="#1e2430">Pantalla</text>
+<text x="440" y="228" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#8d6a12">React</text>
+<rect x="36" y="36" width="220" height="90" rx="12" fill="#fffdf8" stroke="#2c5f94" stroke-width="2"/>
+<text x="146" y="74" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e2430">API REST</text>
+<text x="146" y="100" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#3d4654">pregunta y respuesta</text>
+<rect x="624" y="36" width="220" height="90" rx="12" fill="#fffdf8" stroke="#2c5f94" stroke-width="2"/>
+<text x="734" y="74" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e2430">JSON de fichero</text>
+<text x="734" y="100" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#3d4654">datos que viajan con la app</text>
+<rect x="36" y="340" width="220" height="90" rx="12" fill="#fffdf8" stroke="#2c5f94" stroke-width="2"/>
+<text x="146" y="378" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e2430">Broker</text>
+<text x="146" y="404" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#3d4654">buzón: el mensaje espera</text>
+<rect x="624" y="340" width="220" height="90" rx="12" fill="#fffdf8" stroke="#2c5f94" stroke-width="2"/>
+<text x="734" y="378" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e2430">WebSocket</text>
+<text x="734" y="404" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#3d4654">línea abierta, llega solo</text>
+<line x1="256" y1="90" x2="360" y2="160" stroke="#1e3a5f" stroke-width="2.2" marker-end="url(#arr)"/>
+<line x1="624" y1="90" x2="530" y2="160" stroke="#1e3a5f" stroke-width="2.2" marker-end="url(#arr)"/>
+<line x1="256" y1="370" x2="360" y2="250" stroke="#1e3a5f" stroke-width="2.2" marker-end="url(#arr)"/>
+<line x1="624" y1="370" x2="530" y2="250" stroke="#1e3a5f" stroke-width="2.2" marker-end="url(#arr)"/>
+<text x="440" y="500" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#3d4654">La pantalla no es la fuente. Enseña lo que alguna de estas vías le trae.</text>
+</svg>

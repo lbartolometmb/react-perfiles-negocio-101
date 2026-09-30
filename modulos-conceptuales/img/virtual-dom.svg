@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="420" viewBox="0 0 880 420" role="img">
+<title>React compara la descripción anterior con la nueva y retoca en la página real solo la fila que cambió.</title>
+<rect width="100%" height="100%" fill="#f3efe6"/>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#1e3a5f"/>
+  </marker>
+  <marker id="arrSoft" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#5c6b7a"/>
+  </marker>
+  <marker id="arrCoral" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#9a4638"/>
+  </marker>
+</defs>
+<text x="440" y="40" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#1e2430">Dos descripciones, un retoque</text>
+<rect x="36" y="70" width="250" height="250" rx="14" fill="#fffdf8" stroke="#6f675c" stroke-width="2"/>
+<text x="161" y="102" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#1e2430">Descripción anterior</text>
+<text x="161" y="148" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#66558f">ListaLineas</text>
+<text x="161" y="180" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">Fila L1 · en servicio</text>
+<text x="161" y="208" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">Fila L2 · retraso</text>
+<text x="161" y="236" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">Fila B12 · interrumpida</text>
+<rect x="310" y="70" width="250" height="250" rx="14" fill="#fffdf8" stroke="#2c5f94" stroke-width="2"/>
+<text x="435" y="102" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#1e2430">Descripción nueva</text>
+<text x="435" y="148" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#66558f">ListaLineas</text>
+<text x="435" y="180" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">Fila L1 · en servicio</text>
+<rect x="332" y="194" width="206" height="28" rx="6" fill="#f6d5ce" stroke="#9a4638" stroke-width="1.5"/>
+<text x="435" y="213" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1e2430">Fila L2 · en servicio</text>
+<text x="435" y="248" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">Fila B12 · interrumpida</text>
+<line x1="570" y1="180" x2="630" y2="180" stroke="#1e3a5f" stroke-width="2.2" marker-end="url(#arr)"/>
+<rect x="640" y="110" width="204" height="170" rx="14" fill="#f8e6b0" stroke="#8d6a12" stroke-width="2"/>
+<text x="742" y="150" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#1e2430">Página real</text>
+<text x="742" y="184" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#1e2430">Se toca la fila L2.</text>
+<text x="742" y="210" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">El resto de la</text>
+<text x="742" y="232" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">página sigue.</text>
+<text x="440" y="360" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">A esa descripción intermedia se le llama DOM virtual. El nombre importa menos que el efecto:</text>
+<text x="440" y="384" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">tú declaras cómo debe verse; React calcula el retoque.</text>
+</svg>

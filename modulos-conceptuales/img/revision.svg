@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="910" height="430" viewBox="0 0 910 430" role="img">
+<title>Ocho preguntas para revisar un entregable React sin leerlo como un programador.</title>
+<rect width="100%" height="100%" fill="#f3efe6"/>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#1e3a5f"/>
+  </marker>
+  <marker id="arrSoft" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#5c6b7a"/>
+  </marker>
+  <marker id="arrCoral" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#9a4638"/>
+  </marker>
+</defs>
+<text x="460" y="46" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#1e2430">Qué mirar en un entregable</text>
+<rect x="36" y="80" width="196" height="140" rx="12" fill="#fffdf8" stroke="#2c5f94" stroke-width="2"/>
+<text x="134" y="116" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e3a5f">Piezas</text>
+<text x="134" y="150" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1e2430">¿Se señala la caja</text>
+<text x="134" y="172" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1e2430">y el dato por separado?</text>
+<rect x="250" y="80" width="196" height="140" rx="12" fill="#fffdf8" stroke="#2c5f94" stroke-width="2"/>
+<text x="348" y="116" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e3a5f">Espera</text>
+<text x="348" y="150" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1e2430">¿Hay carga, vacío</text>
+<text x="348" y="172" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1e2430">y error?</text>
+<rect x="464" y="80" width="196" height="140" rx="12" fill="#fffdf8" stroke="#2c5f94" stroke-width="2"/>
+<text x="562" y="116" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e3a5f">Acceso</text>
+<text x="562" y="150" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1e2430">¿Se usa sin ratón</text>
+<text x="562" y="172" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1e2430">y sin depender del color?</text>
+<rect x="678" y="80" width="196" height="140" rx="12" fill="#fffdf8" stroke="#2c5f94" stroke-width="2"/>
+<text x="776" y="116" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e3a5f">Dispositivos</text>
+<text x="776" y="150" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1e2430">¿La decisión cabe</text>
+<text x="776" y="172" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1e2430">en el teléfono?</text>
+<rect x="36" y="250" width="196" height="140" rx="12" fill="#fffdf8" stroke="#2c5f94" stroke-width="2"/>
+<text x="134" y="286" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e3a5f">Pruebas</text>
+<text x="134" y="320" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1e2430">¿Alguien demuestra</text>
+<text x="134" y="342" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1e2430">el comportamiento frágil?</text>
+<rect x="250" y="250" width="196" height="140" rx="12" fill="#fffdf8" stroke="#2c5f94" stroke-width="2"/>
+<text x="348" y="286" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e3a5f">Contrato</text>
+<text x="348" y="320" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1e2430">¿El JSON tiene dueño</text>
+<text x="348" y="342" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1e2430">y está escrito?</text>
+<rect x="464" y="250" width="196" height="140" rx="12" fill="#fffdf8" stroke="#2c5f94" stroke-width="2"/>
+<text x="562" y="286" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e3a5f">Secretos</text>
+<text x="562" y="320" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1e2430">¿La clave vive</text>
+<text x="562" y="342" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1e2430">en el servidor?</text>
+<rect x="678" y="250" width="196" height="140" rx="12" fill="#fffdf8" stroke="#2c5f94" stroke-width="2"/>
+<text x="776" y="286" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e3a5f">Taller</text>
+<text x="776" y="320" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1e2430">¿Se publica el resultado</text>
+<text x="776" y="342" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1e2430">de la construcción?</text>
+</svg>

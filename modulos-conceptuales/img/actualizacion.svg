@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="390" viewBox="0 0 880 390" role="img">
+<title>Al marcar solo incidencias, la lista se vuelve a describir y la línea en servicio deja de mostrarse.</title>
+<rect width="100%" height="100%" fill="#f3efe6"/>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#1e3a5f"/>
+  </marker>
+  <marker id="arrSoft" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#5c6b7a"/>
+  </marker>
+  <marker id="arrCoral" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#9a4638"/>
+  </marker>
+</defs>
+<text x="220" y="40" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#5c6570">Antes</text>
+<text x="660" y="40" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#5c6570">Después del dato</text>
+<rect x="40" y="60" width="360" height="250" rx="14" fill="#fffdf8" stroke="#2c333d" stroke-width="2"/>
+<rect x="480" y="60" width="360" height="250" rx="14" fill="#fffdf8" stroke="#2c333d" stroke-width="2"/>
+<text x="60" y="96" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#5c6570">texto vacío · casilla no</text>
+<text x="500" y="96" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#8d6a12">casilla: solo incidencias</text>
+<rect x="60" y="116" width="320" height="40" rx="8" fill="#fff" stroke="#e2dcd0" stroke-width="1.5"/>
+<text x="76" y="142" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#1e2430">L1   En servicio</text>
+<rect x="60" y="166" width="320" height="40" rx="8" fill="#f8e6b0" stroke="#8d6a12" stroke-width="1.5"/>
+<text x="76" y="192" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#1e2430">L2   Retraso leve</text>
+<rect x="60" y="216" width="320" height="40" rx="8" fill="#f8e6b0" stroke="#8d6a12" stroke-width="1.5"/>
+<text x="76" y="242" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#1e2430">B12   Interrumpida</text>
+<rect x="500" y="116" width="320" height="40" rx="8" fill="#f6d5ce" stroke="#9a4638" stroke-width="1.5"/>
+<text x="516" y="142" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#1e2430">L2   Retraso leve</text>
+<rect x="500" y="166" width="320" height="40" rx="8" fill="#f6d5ce" stroke="#9a4638" stroke-width="1.5"/>
+<text x="516" y="192" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#1e2430">B12   Interrumpida</text>
+<text x="660" y="250" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">L1 ya no sale.</text>
+<text x="660" y="272" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#3d4654">No se borró a mano.</text>
+<line x1="410" y1="180" x2="468" y2="180" stroke="#1e3a5f" stroke-width="2.2" marker-end="url(#arr)"/>
+<text x="440" y="350" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#3d4654">Cambia el recuerdo. Se vuelve a describir la lista. La fila es la misma pieza, con menos datos.</text>
+</svg>

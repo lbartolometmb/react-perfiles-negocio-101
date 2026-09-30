@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="360" viewBox="0 0 880 360" role="img">
+<title>Ciclo de una pieza: aparece, se actualiza cuando cambian los datos y se va cuando deja de mostrarse.</title>
+<rect width="100%" height="100%" fill="#f3efe6"/>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#1e3a5f"/>
+  </marker>
+  <marker id="arrSoft" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#5c6b7a"/>
+  </marker>
+  <marker id="arrCoral" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#9a4638"/>
+  </marker>
+</defs>
+<rect x="40" y="80" width="250" height="160" rx="16" fill="#d5ead6" stroke="#2f6b3a" stroke-width="2"/>
+<text x="165" y="130" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#1e2430">Aparece</text>
+<text x="165" y="170" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#1e2430">Entra en pantalla.</text>
+<text x="165" y="196" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#1e2430">Puede pedir datos.</text>
+<rect x="310" y="80" width="250" height="160" rx="16" fill="#d5e4f7" stroke="#2c5f94" stroke-width="2"/>
+<text x="435" y="130" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#1e2430">Se actualiza</text>
+<text x="435" y="170" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#1e2430">Un dato cambia.</text>
+<text x="435" y="196" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#1e2430">Se vuelve a describir.</text>
+<rect x="580" y="80" width="250" height="160" rx="16" fill="#f6d5ce" stroke="#9a4638" stroke-width="2"/>
+<text x="705" y="130" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#1e2430">Se va</text>
+<text x="705" y="170" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#1e2430">La persona cambia de vista.</text>
+<text x="705" y="196" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#1e2430">Deja de escuchar.</text>
+<line x1="290" y1="160" x2="305" y2="160" stroke="#1e3a5f" stroke-width="2.2" marker-end="url(#arr)"/>
+<line x1="560" y1="160" x2="575" y2="160" stroke="#1e3a5f" stroke-width="2.2" marker-end="url(#arr)"/>
+<text x="440" y="48" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#1e2430">La visita de una pieza</text>
+<text x="440" y="290" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#3d4654">Un hook es el nombre de un enchufe de esa visita: uno recuerda, otro reacciona cuando algo cambia.</text>
+<text x="440" y="318" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#3d4654">En un fichero verás useState (recuerdo) y useEffect (reacción). La idea es esta línea de tres momentos.</text>
+</svg>

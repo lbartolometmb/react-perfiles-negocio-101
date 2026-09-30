@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="440" viewBox="0 0 880 440" role="img">
+<title>Árbol de piezas del panel: PanelServicio contiene la búsqueda y la lista; la lista contiene grupos y filas.</title>
+<rect width="100%" height="100%" fill="#f3efe6"/>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#1e3a5f"/>
+  </marker>
+  <marker id="arrSoft" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#5c6b7a"/>
+  </marker>
+  <marker id="arrCoral" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#9a4638"/>
+  </marker>
+</defs>
+<text x="440" y="42" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#1e2430">El mismo dibujo, en árbol</text>
+<rect x="330" y="64" width="220" height="54" rx="10" fill="#e7e2d8" stroke="#6f675c" stroke-width="2"/>
+<text x="440" y="97" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e2430">PanelServicio</text>
+<line x1="440" y1="118" x2="440" y2="146" stroke="#1e3a5f" stroke-width="2"/>
+<line x1="220" y1="146" x2="660" y2="146" stroke="#1e3a5f" stroke-width="2"/>
+<line x1="220" y1="146" x2="220" y2="170" stroke="#1e3a5f" stroke-width="2"/>
+<line x1="660" y1="146" x2="660" y2="170" stroke="#1e3a5f" stroke-width="2"/>
+<rect x="110" y="170" width="220" height="54" rx="10" fill="#d5e4f7" stroke="#2c5f94" stroke-width="2"/>
+<text x="220" y="203" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e2430">BarraBusqueda</text>
+<rect x="550" y="170" width="220" height="54" rx="10" fill="#e3dcf5" stroke="#66558f" stroke-width="2"/>
+<text x="660" y="203" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e2430">ListaLineas</text>
+<line x1="660" y1="224" x2="660" y2="250" stroke="#1e3a5f" stroke-width="2"/>
+<line x1="520" y1="250" x2="800" y2="250" stroke="#1e3a5f" stroke-width="2"/>
+<line x1="520" y1="250" x2="520" y2="274" stroke="#1e3a5f" stroke-width="2"/>
+<line x1="800" y1="250" x2="800" y2="274" stroke="#1e3a5f" stroke-width="2"/>
+<rect x="410" y="274" width="220" height="48" rx="10" fill="#d5ead6" stroke="#2f6b3a" stroke-width="2"/>
+<text x="520" y="304" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e2430">GrupoLinea</text>
+<rect x="690" y="274" width="220" height="48" rx="10" fill="#f8e6b0" stroke="#8d6a12" stroke-width="2"/>
+<text x="800" y="304" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e2430">FilaLinea</text>
+<text x="440" y="370" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#3d4654">GrupoLinea y FilaLinea se repiten: dos modos, tres líneas, las mismas piezas.</text>
+<text x="440" y="398" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#3d4654">El rótulo METRO y la fila L2 no son dos diseños. Son la misma función con otros datos.</text>
+</svg>

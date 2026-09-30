@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" role="img">
+<title>El boceto del panel con cajas de color: PanelServicio, BarraBusqueda, ListaLineas, GrupoLinea y FilaLinea.</title>
+<rect width="100%" height="100%" fill="#f3efe6"/>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#1e3a5f"/>
+  </marker>
+  <marker id="arrSoft" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#5c6b7a"/>
+  </marker>
+  <marker id="arrCoral" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#9a4638"/>
+  </marker>
+</defs>
+<rect x="20" y="20" width="560" height="600" rx="16" fill="#fffdf8" stroke="#2c333d" stroke-width="2"/>
+<rect x="20" y="20" width="560" height="36" rx="16" fill="#e7e2d8"/>
+<rect x="20" y="38" width="560" height="20" fill="#e7e2d8"/>
+<circle cx="42" cy="38" r="5" fill="#e07a5f"/>
+<circle cx="58" cy="38" r="5" fill="#e6b325"/>
+<circle cx="74" cy="38" r="5" fill="#81b29a"/>
+<text x="300" y="42" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#5c6570">panel</text>
+<rect x="36" y="70" width="528" height="530" rx="12" fill="#e7e2d8" stroke="#6f675c" stroke-width="2"/>
+<text x="52" y="96" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#3d4654">PanelServicio</text>
+<text x="52" y="116" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#5c6570">el panel entero</text>
+<text x="52" y="148" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="700" fill="#1e2430">Panel de servicio</text>
+<rect x="52" y="164" width="496" height="108" rx="10" fill="#d5e4f7" stroke="#2c5f94" stroke-width="2"/>
+<text x="66" y="186" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#2c5f94">BarraBusqueda</text>
+<rect x="66" y="196" width="468" height="32" rx="8" fill="#fff" stroke="#2c5f94" stroke-width="1.5"/>
+<text x="80" y="217" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#8a8175">Buscar línea…</text>
+<rect x="66" y="238" width="14" height="14" rx="3" fill="#fff" stroke="#2c5f94" stroke-width="1.5"/>
+<text x="86" y="250" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#1e2430">Solo incidencias</text>
+<rect x="52" y="286" width="496" height="296" rx="10" fill="#e3dcf5" stroke="#66558f" stroke-width="2"/>
+<text x="66" y="308" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#66558f">ListaLineas</text>
+<rect x="66" y="318" width="468" height="26" rx="6" fill="#d5ead6" stroke="#2f6b3a" stroke-width="1.5"/>
+<text x="78" y="336" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#2f6b3a">METRO</text>
+<text x="430" y="336" text-anchor="end" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#2f6b3a">GrupoLinea</text>
+<rect x="66" y="352" width="468" height="52" rx="8" fill="#f8e6b0" stroke="#8d6a12" stroke-width="2"/>
+<text x="80" y="374" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="700" fill="#8d6a12">FilaLinea</text>
+<text x="80" y="392" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#1e2430">L1</text>
+<text x="518" y="388" text-anchor="end" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#1e2430">En servicio</text>
+<rect x="66" y="414" width="468" height="52" rx="8" fill="#f8e6b0" stroke="#8d6a12" stroke-width="2"/>
+<text x="80" y="436" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="700" fill="#8d6a12">FilaLinea</text>
+<text x="80" y="454" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#1e2430">L2</text>
+<text x="518" y="450" text-anchor="end" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#1e2430">Retraso leve</text>
+<rect x="66" y="476" width="468" height="26" rx="6" fill="#d5ead6" stroke="#2f6b3a" stroke-width="1.5"/>
+<text x="78" y="494" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#2f6b3a">BUS</text>
+<text x="430" y="494" text-anchor="end" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#2f6b3a">GrupoLinea</text>
+<rect x="66" y="510" width="468" height="52" rx="8" fill="#f8e6b0" stroke="#8d6a12" stroke-width="2"/>
+<text x="80" y="532" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="700" fill="#8d6a12">FilaLinea</text>
+<text x="80" y="550" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#1e2430">B12</text>
+<text x="518" y="546" text-anchor="end" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#1e2430">Interrumpida</text>
+<text x="760" y="48" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e2430">Las cinco piezas</text>
+<rect x="620" y="78" width="300" height="72" rx="10" fill="#e7e2d8" stroke="#6f675c" stroke-width="2"/>
+<text x="636" y="108" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e2430">PanelServicio</text>
+<text x="636" y="130" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">contiene el resto</text>
+<rect x="620" y="168" width="300" height="72" rx="10" fill="#d5e4f7" stroke="#2c5f94" stroke-width="2"/>
+<text x="636" y="198" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e2430">BarraBusqueda</text>
+<text x="636" y="220" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">texto y casilla</text>
+<rect x="620" y="258" width="300" height="72" rx="10" fill="#e3dcf5" stroke="#66558f" stroke-width="2"/>
+<text x="636" y="288" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e2430">ListaLineas</text>
+<text x="636" y="310" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">el conjunto</text>
+<rect x="620" y="348" width="300" height="72" rx="10" fill="#d5ead6" stroke="#2f6b3a" stroke-width="2"/>
+<text x="636" y="378" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e2430">GrupoLinea</text>
+<text x="636" y="400" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">un rótulo de modo</text>
+<rect x="620" y="438" width="300" height="72" rx="10" fill="#f8e6b0" stroke="#8d6a12" stroke-width="2"/>
+<text x="636" y="468" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e2430">FilaLinea</text>
+<text x="636" y="490" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">una línea y su estado</text>
+<text x="770" y="560" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">Cada caja hace una cosa.</text>
+<text x="770" y="582" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">Si crece, se parte.</text>
+</svg>
